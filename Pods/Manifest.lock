@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HBDNavigationBar (1.6.6)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HBDNavigationBar
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HBDNavigationBar
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HBDNavigationBar: b3c63058aa0c1509da6646469c491d9b70edbde1
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: f378d7a2072d48b0a905caebae5cfa4bfa05e243
+
+COCOAPODS: 1.8.3
