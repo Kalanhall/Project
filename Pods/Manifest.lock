@@ -12,8 +12,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - LoginService (from `/Users/kalan/Desktop/Swift/LoginService`)
-  - LoginServiceInterface (from `/Users/kalan/Desktop/Swift/LoginServiceInterface`)
+  - LoginService (from `/Users/kalan/LoginService`)
+  - LoginServiceInterface (from `/Users/kalan/LoginServiceInterface`)
   - SnapKit
 
 SPEC REPOS:
@@ -27,9 +27,9 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LoginService:
-    :path: "/Users/kalan/Desktop/Swift/LoginService"
+    :path: "/Users/kalan/LoginService"
   LoginServiceInterface:
-    :path: "/Users/kalan/Desktop/Swift/LoginServiceInterface"
+    :path: "/Users/kalan/LoginServiceInterface"
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -40,6 +40,6 @@ SPEC CHECKSUMS:
   LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: effee896042266426b5f537aa328c50a0a795362
+PODFILE CHECKSUM: e9073d184cc8b8838c594aef25ca2f081398beb5
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4

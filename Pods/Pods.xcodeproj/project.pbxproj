@@ -22,18 +22,18 @@
 		1CC438EE0240BDFAC60B6724FC246C3D /* Extensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A716C1D05598687FEA15F20FE3680FDE /* Extensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EFCEB848B06391947274E16D53B0AE9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7F034679074836C1C41D4B0A22B9F /* UIImage+Extension.swift */; };
 		276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4DFD3B65E2BD7F916F4239B590721 /* ConstraintLayoutGuideDSL.swift */; };
-		2811EBCAEE35CC332071F9A4370B9574 /* LoginServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B34C943E500CC83153A69279DEA389 /* LoginServiceInterface-dummy.m */; };
+		2811EBCAEE35CC332071F9A4370B9574 /* LoginServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CCEC1B5886C64A2DD753A1B05536FB /* LoginServiceInterface-dummy.m */; };
 		28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F254C343D891F47E9B3ECD7B6744062B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29A92B7F28B4DA48A07E8FCC8D0EDBB8 /* HBDNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDB87345FB9CBF0FCC7D563D7FB1064 /* HBDNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A213F8F0F1AC553FDC493DFBF44D1 /* SessionDelegate.swift */; };
 		31437876FD13E62AF1CB6D72B2197A62 /* KLServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC0C759FC1453A5B054F9CDB603057 /* KLServer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A62788357A52A54255EE1FBA3FB4B /* NetworkReachabilityManager.swift */; };
 		35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC6BC1F932DEF24C1EFB1A2F20241F3 /* ConstraintMakerRelatable.swift */; };
-		38E6A99C0A7B6120BD305091ED695F62 /* LoginServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F9D234F30906FDCA800350DA7EA882 /* LoginServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E6A99C0A7B6120BD305091ED695F62 /* LoginServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F794933C45D013B92F8C40E84816C3C3 /* LoginServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BEABF420058C3E633CFB015CEB34313 /* LoginService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75E36230B6AE8D73072552CEFEF95015 /* LoginService.bundle */; };
 		40719DF427856B999E185FD262F18950 /* Pods-Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F013325FF5FAE8CBA5DE4297F3558A /* Pods-Project-dummy.m */; };
 		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F0CA4C6F1D7067152F88A1C56BE97 /* ConstraintMakerEditable.swift */; };
-		4A4CFBAFBD31C15C7ADEB948E31366A4 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022DC6F2E7CD4FA8C8DB6CFAA32420B /* LoginService.swift */; };
+		4A4CFBAFBD31C15C7ADEB948E31366A4 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585B947A9C6684C7CC55C385E65D8FA /* LoginService.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A7E9E7C8655CBB136D6FC5E169C67 /* Validation.swift */; };
 		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD867DB08CD44646684D0C436F2E27E /* ConstraintInsets.swift */; };
 		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF751AE278E69FFB270B677628F097A /* ConstraintView.swift */; };
@@ -52,7 +52,7 @@
 		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2111306537408ABCB54B7730A8F852 /* LayoutConstraintItem.swift */; };
 		82EA1ECB08B8637077DF5D99F0513F78 /* HBDNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C623BA4EC04809920DED6F3EAA7E1 /* HBDNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442E6874DC0BAEA23C0855776C594710 /* AFError.swift */; };
-		85999537E1129370E10D7D6CC5C039C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6187B312BB3606E4732D4E26EA55A2C2 /* Images.xcassets */; };
+		85999537E1129370E10D7D6CC5C039C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD8F4C7F7A90964C9917333DAA79ED2 /* Images.xcassets */; };
 		8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A64D621A0AF003ADA5F26A6517D43D /* ConstraintMakerPriortizable.swift */; };
 		8EA79DAD04E5984398E19871C700D701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A3516D830E4655A7B7492D23A64C98 /* Foundation.framework */; };
 		92A4B15701D52237097852C563E7CDDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C845E9E7AA67136B2BD3AA2A7EC4A9 /* UIKit.framework */; };
@@ -75,9 +75,9 @@
 		B80CA61D7F94E216B8F83BA92544111A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A3516D830E4655A7B7492D23A64C98 /* Foundation.framework */; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D913EB4ECAA444C16F7EAFA86828D95 /* Alamofire.swift */; };
 		BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C9C0DA016AC5CA29367310CD2F767 /* LayoutConstraint.swift */; };
-		C0AE6BA51C8BA213015E8F7DEA440880 /* LoginServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF5385BD2C2EF2FB28B4ACED13844 /* LoginServiceInterface.swift */; };
+		C0AE6BA51C8BA213015E8F7DEA440880 /* LoginServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7ABF9E8E6BC7D1E22E98C5E65B486 /* LoginServiceInterface.swift */; };
 		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62D6201698632B59C6DEB8F8D9BE97 /* ConstraintRelation.swift */; };
-		C8E02DF7760EE90A333FEE873FEB542C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58750F6C8D438D460EE9D542826E017B /* LoginController.swift */; };
+		C8E02DF7760EE90A333FEE873FEB542C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E830EC8877F364FD7524EDE34E831F0 /* LoginController.swift */; };
 		C94310C78BC448E39508B2A2098F0FDD /* UIViewController+HBD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C543C756D680FB4B842A700F8C58093 /* UIViewController+HBD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C9DBFFF85E17389C26E8CBDC99D949D0 /* KLServer.h in Headers */ = {isa = PBXBuildFile; fileRef = C559F17F74A3AD18AD2C862AF470D945 /* KLServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50457ED70CA8B005B81394CD9BB715 /* ConstraintItem.swift */; };
@@ -90,16 +90,17 @@
 		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F46D9935EAC5EF9A34923458DA5196 /* ConstraintViewDSL.swift */; };
 		E302131C5AA5169071E5F5C6433BD2EC /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1124C1BCFDD756AD34E0302839C788 /* UIButton+Extension.swift */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBE6BFF6E3BA1978C1B99A71A61E13 /* ResponseSerialization.swift */; };
-		E4A4D99EB69DF76995EAFD193C7E8906 /* LoginService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC07794F7953BF49480A46D72D42DB2 /* LoginService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A4D99EB69DF76995EAFD193C7E8906 /* LoginService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCFAF61F13695D6CC875A55312D4DC9 /* LoginService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E681643BD7D1E197FCCCE8CBCA15F236 /* KLServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C88F202496F3FCCAEBDB38E2C6E78AF /* KLServer.framework */; };
 		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB5DAE7B56EABB2BC64388CADDB6EB /* ConstraintRelatableTarget.swift */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DAB1A738B8A88BBDA3D89046AAC26E /* ServerTrustPolicy.swift */; };
 		F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF062DD81342321C97C860FE4B8394C7 /* ConstraintInsetTarget.swift */; };
+		F69C6B57237DAEE20053CDAB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C6B56237DAEE20053CDAB /* LoginView.swift */; };
 		F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7517883EDBA430F28057ACD5DE7F2DF1 /* ConstraintLayoutSupportDSL.swift */; };
 		F7836D590BBBCA79380AA1C02A8F211E /* HBDNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAED51DEC12711B994C88A6C15199943 /* HBDNavigationBar-dummy.m */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA52152FA0AC12A6D8A0BFD85D9D244C /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA3E98D8FAEDE235B43191D007D146F0 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736232CA67ED7E67EBA41B030F7612F /* UIColor+Extension.swift */; };
-		FBF7F27A2E52A19C9130B5FD38BE4905 /* LoginService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0956A2F684B3407683193ACF5DE4F5E /* LoginService-dummy.m */; };
+		FBF7F27A2E52A19C9130B5FD38BE4905 /* LoginService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CC34FF6B59AA54770ECBFB5C66E77 /* LoginService-dummy.m */; };
 		FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF169C85B199F1007C5B5777CE8F02 /* ConstraintMakerExtendable.swift */; };
 		FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68669A52DBD7DB89E134EFFE79C4AB9E /* ConstraintLayoutGuide.swift */; };
 /* End PBXBuildFile section */
@@ -186,7 +187,6 @@
 
 /* Begin PBXFileReference section */
 		01A3516D830E4655A7B7492D23A64C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0291249AE023AA0BCBB4A656573D035B /* LoginService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginService-prefix.pch"; sourceTree = "<group>"; };
 		031CFEB96CE9351C4B804C2F5B662BC7 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		03D22630D852EB5EC6C4BB3E54227000 /* LoginService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A5420449D7C63C97AED70E92785C50 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -197,22 +197,27 @@
 		12A7ED59F3327011D1F3766BEF565C11 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		151061C4B704D830B7CC35356D720DF6 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		1539240E85F1B7754EB6E15A7BBB66E4 /* Extensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extensions.xcconfig; sourceTree = "<group>"; };
-		15B34C943E500CC83153A69279DEA389 /* LoginServiceInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceInterface-dummy.m"; sourceTree = "<group>"; };
 		16C13F8A754F5037772D6AB893123FE7 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		172EDCF8739D12ABE9F05766ACF5D90C /* Extensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extensions.modulemap; sourceTree = "<group>"; };
 		195B46810000A157C5D92BAB2B4C49DF /* HBDNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBDNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		19F1539429A0AC322FF2432AFB67EBEA /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		1D6CC34FF6B59AA54770ECBFB5C66E77 /* LoginService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginService-dummy.m"; sourceTree = "<group>"; };
+		1FCFAF61F13695D6CC875A55312D4DC9 /* LoginService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginService-umbrella.h"; sourceTree = "<group>"; };
 		1FDB87345FB9CBF0FCC7D563D7FB1064 /* HBDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationController.h; path = HBDNavigationBar/Classes/HBDNavigationController.h; sourceTree = "<group>"; };
 		1FFBE6BFF6E3BA1978C1B99A71A61E13 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		23E75B4E4BF111733FC188BFEF331BB5 /* LoginService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginService-prefix.pch"; sourceTree = "<group>"; };
 		254A62788357A52A54255EE1FBA3FB4B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		27E7ABF9E8E6BC7D1E22E98C5E65B486 /* LoginServiceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceInterface.swift; path = LoginServiceInterface/Classes/LoginServiceInterface.swift; sourceTree = "<group>"; };
 		2981AE780ED0D955E44FD54598ACFFD2 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		321CF5385BD2C2EF2FB28B4ACED13844 /* LoginServiceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceInterface.swift; path = LoginServiceInterface/Classes/LoginServiceInterface.swift; sourceTree = "<group>"; };
+		300BC8E20509C2BD88A1932B31E1784C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		38F627F63C3066DBCAE5C35CBE9C9A17 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		3C33626668BBEFF20DB5EA7E1BD33AB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E830EC8877F364FD7524EDE34E831F0 /* LoginController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		3EEC0C759FC1453A5B054F9CDB603057 /* KLServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLServer.m; path = KLServer/Classes/KLServer.m; sourceTree = "<group>"; };
+		40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginService.xcconfig; sourceTree = "<group>"; };
 		442E6874DC0BAEA23C0855776C594710 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		44DD9A0DAE08F0C69530EFCB683E44B7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		456F9253241C3C9F4270E15A969DDDF9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		4585B947A9C6684C7CC55C385E65D8FA /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = LoginService/Classes/LoginService.swift; sourceTree = "<group>"; };
 		46F46D9935EAC5EF9A34923458DA5196 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		47668972FC561E0B735D751120067770 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		478F0DDADA8DCA69AC6EF9A2415447FF /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
@@ -223,53 +228,49 @@
 		4CB74B756AB703C97268224BDF1B3642 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		4CD867DB08CD44646684D0C436F2E27E /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		4DE7701971BD32E0A0FB47E18E85FD1A /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E23B4BE0405F015BB9DBF3CCF9BD234 /* ResourceBundle-LoginService-LoginService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginService-LoginService-Info.plist"; sourceTree = "<group>"; };
 		4FBA0EE96CCF09D6B531E21E6CDA41E2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		528AD8F20F89FB7DAC5EC66FF858F685 /* Extensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extensions-dummy.m"; sourceTree = "<group>"; };
 		552237C26B6B9C7E7B911F7889167C21 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		557B2B6D6AC49919B1E532D0C3B50667 /* LoginService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginService.modulemap; sourceTree = "<group>"; };
-		55D4C52AFDF7DA8AEE715D53B38DFF4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5715AA0570E141085FD9227668DC21EE /* LoginService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57A64D621A0AF003ADA5F26A6517D43D /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		58750F6C8D438D460EE9D542826E017B /* LoginController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		5C88F202496F3FCCAEBDB38E2C6E78AF /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D01993380486DB7173882EAD0A2031D /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC07794F7953BF49480A46D72D42DB2 /* LoginService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginService-umbrella.h"; sourceTree = "<group>"; };
+		5DBFBF98764C014C0D42A2B5EFC2D47D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F7939EC3C6F6349CD472F2FA665CD3F /* KLServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLServer-Info.plist"; sourceTree = "<group>"; };
 		60C69F21C53217BE1B18F5CEDA4DFD43 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		6187B312BB3606E4732D4E26EA55A2C2 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LoginService/Assets/Images.xcassets; sourceTree = "<group>"; };
 		625F0DCE9605AF6F59A3CDFA02522E75 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		632AB93ADA79DFC8887E8C000ED3F7ED /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		68669A52DBD7DB89E134EFFE79C4AB9E /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		68FFC635F96C5B2140EB932A8B695D56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6C12D9EB9CB5AECF4F1D72C4DA3A5A05 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		6DF751AE278E69FFB270B677628F097A /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		6E2111306537408ABCB54B7730A8F852 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		6E727B392CC208B29FE7BAEF1D10EC5B /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		71AAC6C82BC2B3BB20B004D7102900DA /* ResourceBundle-LoginService-LoginService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginService-LoginService-Info.plist"; sourceTree = "<group>"; };
-		71B5F6A741CCBEE5923602B5F83B2A63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7517883EDBA430F28057ACD5DE7F2DF1 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		75E36230B6AE8D73072552CEFEF95015 /* LoginService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C543C756D680FB4B842A700F8C58093 /* UIViewController+HBD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HBD.m"; path = "HBDNavigationBar/Classes/UIViewController+HBD.m"; sourceTree = "<group>"; };
+		7F5E60B90AD14787EC2130F35A41C280 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		82A88DBD9683AA1DC1573214A17CD467 /* LoginServiceInterface-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceInterface-Info.plist"; sourceTree = "<group>"; };
+		8895260F2FB60811E26FD60A890C7DB0 /* LoginServiceInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceInterface.xcconfig; sourceTree = "<group>"; };
 		89CCFAED932A5506CF3469035D345432 /* Pods-Project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project-Info.plist"; sourceTree = "<group>"; };
 		8AB163B134B440CFD7C20EED3EB67137 /* HBDNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationController.m; path = HBDNavigationBar/Classes/HBDNavigationController.m; sourceTree = "<group>"; };
 		8B1A37EB5CEF365945AE52C6EC985A0B /* Extensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Extensions-Info.plist"; sourceTree = "<group>"; };
+		8D34552D23E6CE279ED517ECA6257CF4 /* LoginServiceInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-prefix.pch"; sourceTree = "<group>"; };
 		90CBCA01AF6A37A40F0BC694E01CA7DA /* KLServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLServer-prefix.pch"; sourceTree = "<group>"; };
 		914432855F0187DD4A67A7E81AADB8F0 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		9256652288662879C258F0A2265B0E5B /* HBDNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBDNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C623BA4EC04809920DED6F3EAA7E1 /* HBDNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationBar.h; path = HBDNavigationBar/Classes/HBDNavigationBar.h; sourceTree = "<group>"; };
 		95FC65E0E31B1EB77302DD6E867E820D /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
-		971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginService.xcconfig; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B410514D1EE0EB7EAA49FF9B97D362 /* HBDNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		99239AEA6707AD1233729D0E0DD8287D /* Pods-Project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project-frameworks.sh"; sourceTree = "<group>"; };
 		99F013325FF5FAE8CBA5DE4297F3558A /* Pods-Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project-dummy.m"; sourceTree = "<group>"; };
 		9C17D7BF56E96AEC5060DEF04D80F375 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		9C51C3EE8D3DAFE495A7B0854063168A /* KLServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLServer-dummy.m"; sourceTree = "<group>"; };
-		9CDF27C7E51C0C135928F8AF5CFB1A82 /* LoginServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4A7E9E7C8655CBB136D6FC5E169C67 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		9E809375B757194DCA8B3F3B05AE1768 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		A0956A2F684B3407683193ACF5DE4F5E /* LoginService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginService-dummy.m"; sourceTree = "<group>"; };
 		A14294AF918FDC8FAEF0182174F2F99A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		A237880B98929647F1A5B7AA0E64D944 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		A3DC910A4D4F2D974F627D188CC5A05B /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
@@ -278,47 +279,48 @@
 		A716C1D05598687FEA15F20FE3680FDE /* Extensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-umbrella.h"; sourceTree = "<group>"; };
 		A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA52152FA0AC12A6D8A0BFD85D9D244C /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		AE5742139E1697621215346919472B55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B049FE67BAD758605CF18B4F8965DB6F /* LoginServiceInterface-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceInterface-Info.plist"; sourceTree = "<group>"; };
+		AB22A54C63F16729ED8B174A59E99618 /* LoginServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1AF1BF97734453AA467732A3E19F13A /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		B2ACA5735E96A4CB237FABAF195D3849 /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EA79DF221A4EA19A13FF8B3AA0E212 /* HBDNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.xcconfig; sourceTree = "<group>"; };
 		B40063372C9A0B956788DA4EC6DBC32C /* KLServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLServer.xcconfig; sourceTree = "<group>"; };
-		B592E766615E61304E1CECAB7C588142 /* LoginServiceInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceInterface.xcconfig; sourceTree = "<group>"; };
+		B5CCEC1B5886C64A2DD753A1B05536FB /* LoginServiceInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceInterface-dummy.m"; sourceTree = "<group>"; };
 		B747C1B9151A2422DC2E9126059DE6B0 /* HBDNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-umbrella.h"; sourceTree = "<group>"; };
 		B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA42BDD044AFA6DB3A692DCD74544580 /* Pods-Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA4629316746C2D510A7502B1BE51559 /* LoginService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginService-Info.plist"; sourceTree = "<group>"; };
 		BA55F22E1EC82B2A7BA0D92964E76D80 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		BC2B4958241AB9ACBD1CDC3242B985A2 /* LoginService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginService-Info.plist"; sourceTree = "<group>"; };
 		BC62D6201698632B59C6DEB8F8D9BE97 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		BF5ADF58764D15E716AE62EB3FA9CD5D /* Pods-Project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Project.modulemap"; sourceTree = "<group>"; };
 		C0B9D2D0C9B346E0BD44D30E7E582ED4 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		C1FCD496DE8C69D3AE2F74658D913598 /* LoginServiceInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceInterface.modulemap; sourceTree = "<group>"; };
+		C155413BA06FB2BA6D03E5F30133454F /* LoginServiceInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceInterface.modulemap; sourceTree = "<group>"; };
 		C224358B0D25F65458B02816CC2421A4 /* HBDNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationBar.m; path = HBDNavigationBar/Classes/HBDNavigationBar.m; sourceTree = "<group>"; };
 		C27C9C0DA016AC5CA29367310CD2F767 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		C4DF169C85B199F1007C5B5777CE8F02 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		C559F17F74A3AD18AD2C862AF470D945 /* KLServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLServer.h; path = KLServer/Classes/KLServer.h; sourceTree = "<group>"; };
 		C66673F2CA5ADFE5B7E40FC0DEB3AC39 /* Pods-Project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project-umbrella.h"; sourceTree = "<group>"; };
-		C793BD7828362492DB9826286398ECB4 /* LoginServiceInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-prefix.pch"; sourceTree = "<group>"; };
 		CDC96DA13684AEEF55361D40F327147B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		CE1124C1BCFDD756AD34E0302839C788 /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "Extensions/Classes/UIButton+Extension.swift"; sourceTree = "<group>"; };
 		CF5A213F8F0F1AC553FDC493DFBF44D1 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		D736232CA67ED7E67EBA41B030F7612F /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Extensions/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		DDF7F034679074836C1C41D4B0A22B9F /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "Extensions/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
 		DFC6BC1F932DEF24C1EFB1A2F20241F3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		E0F9D234F30906FDCA800350DA7EA882 /* LoginServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-umbrella.h"; sourceTree = "<group>"; };
+		DFD8F4C7F7A90964C9917333DAA79ED2 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LoginService/Assets/Images.xcassets; sourceTree = "<group>"; };
 		E61026C1CCBC179C35560FACEF60B4D6 /* KLServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLServer.modulemap; sourceTree = "<group>"; };
 		E6CD3CCC050EB4020FCA560035017C5A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		E95BB5CE068FEA260EB4AC0ED6795646 /* LoginService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E9F986838A7A0DD85C97D9C00C9EF0EA /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		EA5AA45DC5954570D29B9C271BD1B84C /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDB5DAE7B56EABB2BC64388CADDB6EB /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		EDF29401D6F9119B4A2162E09847A058 /* LoginService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginService.modulemap; sourceTree = "<group>"; };
 		EF062DD81342321C97C860FE4B8394C7 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		EF6699C3D48EA07742871D48C03B9C9F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		F022DC6F2E7CD4FA8C8DB6CFAA32420B /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = LoginService/Classes/LoginService.swift; sourceTree = "<group>"; };
 		F2290216BEB146F2C5EA9160FE0DE0B9 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		F254C343D891F47E9B3ECD7B6744062B /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		F3C845E9E7AA67136B2BD3AA2A7EC4A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F4418824AC03A88DE14F6F3ACB6068AC /* Pods-Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project-acknowledgements.plist"; sourceTree = "<group>"; };
+		F69C6B56237DAEE20053CDAB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F794933C45D013B92F8C40E84816C3C3 /* LoginServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-umbrella.h"; sourceTree = "<group>"; };
 		FAED51DEC12711B994C88A6C15199943 /* HBDNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDNavigationBar-dummy.m"; sourceTree = "<group>"; };
 		FB50457ED70CA8B005B81394CD9BB715 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		FB5CFCA8911B94D0BEFBB1AF308B24A1 /* Extensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-prefix.pch"; sourceTree = "<group>"; };
@@ -405,6 +407,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0060BE8F82C6724177575C8D0CF2FDE2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB7FDB5216FF3A312B91FE29D8BB978 /* LoginService */,
+				730EB840FA5424A0EB7B7CE3CCF534FD /* LoginServiceInterface */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		01C6F54FF91DC3B7F539202824731A13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,39 +483,18 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		2A11D503D61A775966EE6CBC97BB5B01 /* LoginService */ = {
+		4BB7FDB5216FF3A312B91FE29D8BB978 /* LoginService */ = {
 			isa = PBXGroup;
 			children = (
-				F022DC6F2E7CD4FA8C8DB6CFAA32420B /* LoginService.swift */,
-				CFE5396C4463E5B62EFCADE5959334D2 /* Controller */,
-				B28D5EF3E78C81A97C94C80CC91BFEE5 /* Pod */,
-				FE0ADF1719C2B1A480A6610E4C046439 /* Resources */,
-				816165CD84C5B0180DFC12920B090E8A /* Support Files */,
+				4585B947A9C6684C7CC55C385E65D8FA /* LoginService.swift */,
+				7CEC31C12D52784CC0731489A04A0DBE /* Controller */,
+				63714A475EC061BAFEF3C54948C633FB /* Pod */,
+				561C2F14A6B449892E2FD296A448C47A /* Resources */,
+				AA4911C713A69A53E0495D5D3634930E /* Support Files */,
 			);
 			name = LoginService;
-			path = /Users/kalan/Desktop/Swift/LoginService;
+			path = /Users/kalan/LoginService;
 			sourceTree = "<absolute>";
-		};
-		2A1D8D546EBF506CFD28252B220E3341 /* LoginServiceInterface */ = {
-			isa = PBXGroup;
-			children = (
-				321CF5385BD2C2EF2FB28B4ACED13844 /* LoginServiceInterface.swift */,
-				4982C66C0D064B03DBC2B478608828A9 /* Pod */,
-				9FA4789C5745BD85F45DC517F6F05EBA /* Support Files */,
-			);
-			name = LoginServiceInterface;
-			path = /Users/kalan/Desktop/Swift/LoginServiceInterface;
-			sourceTree = "<absolute>";
-		};
-		4982C66C0D064B03DBC2B478608828A9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AE5742139E1697621215346919472B55 /* LICENSE */,
-				9CDF27C7E51C0C135928F8AF5CFB1A82 /* LoginServiceInterface.podspec */,
-				3C33626668BBEFF20DB5EA7E1BD33AB3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
 		};
 		55F5813B1CC993EDC3F342D951D7B898 /* Support Files */ = {
 			isa = PBXGroup;
@@ -520,6 +510,24 @@
 			path = "../Target Support Files/KLServer";
 			sourceTree = "<group>";
 		};
+		561C2F14A6B449892E2FD296A448C47A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8F4C7F7A90964C9917333DAA79ED2 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		63714A475EC061BAFEF3C54948C633FB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E60B90AD14787EC2130F35A41C280 /* LICENSE */,
+				E95BB5CE068FEA260EB4AC0ED6795646 /* LoginService.podspec */,
+				5DBFBF98764C014C0D42A2B5EFC2D47D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		6821C193524E5F5C52741A4E7E3B9BF6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,28 +536,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		816165CD84C5B0180DFC12920B090E8A /* Support Files */ = {
+		6BEA13AFE86D911870534619C21AE48B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				557B2B6D6AC49919B1E532D0C3B50667 /* LoginService.modulemap */,
-				971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */,
-				A0956A2F684B3407683193ACF5DE4F5E /* LoginService-dummy.m */,
-				BC2B4958241AB9ACBD1CDC3242B985A2 /* LoginService-Info.plist */,
-				0291249AE023AA0BCBB4A656573D035B /* LoginService-prefix.pch */,
-				5DC07794F7953BF49480A46D72D42DB2 /* LoginService-umbrella.h */,
-				71AAC6C82BC2B3BB20B004D7102900DA /* ResourceBundle-LoginService-LoginService-Info.plist */,
+				C155413BA06FB2BA6D03E5F30133454F /* LoginServiceInterface.modulemap */,
+				8895260F2FB60811E26FD60A890C7DB0 /* LoginServiceInterface.xcconfig */,
+				B5CCEC1B5886C64A2DD753A1B05536FB /* LoginServiceInterface-dummy.m */,
+				82A88DBD9683AA1DC1573214A17CD467 /* LoginServiceInterface-Info.plist */,
+				8D34552D23E6CE279ED517ECA6257CF4 /* LoginServiceInterface-prefix.pch */,
+				F794933C45D013B92F8C40E84816C3C3 /* LoginServiceInterface-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Project/Pods/Target Support Files/LoginService";
+			path = "../Project/Pods/Target Support Files/LoginServiceInterface";
 			sourceTree = "<group>";
 		};
-		85EAEBE52FE2CC445A950353D0CE57AD /* Development Pods */ = {
+		730EB840FA5424A0EB7B7CE3CCF534FD /* LoginServiceInterface */ = {
 			isa = PBXGroup;
 			children = (
-				2A11D503D61A775966EE6CBC97BB5B01 /* LoginService */,
-				2A1D8D546EBF506CFD28252B220E3341 /* LoginServiceInterface */,
+				27E7ABF9E8E6BC7D1E22E98C5E65B486 /* LoginServiceInterface.swift */,
+				944064C173E2A0E523B69F577B4898DF /* Pod */,
+				6BEA13AFE86D911870534619C21AE48B /* Support Files */,
 			);
-			name = "Development Pods";
+			name = LoginServiceInterface;
+			path = /Users/kalan/LoginServiceInterface;
+			sourceTree = "<absolute>";
+		};
+		7CEC31C12D52784CC0731489A04A0DBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E830EC8877F364FD7524EDE34E831F0 /* LoginController.swift */,
+				F69C6B56237DAEE20053CDAB /* LoginView.swift */,
+			);
+			name = Controller;
+			path = LoginService/Classes/Controller;
 			sourceTree = "<group>";
 		};
 		8DF829520363D3EF969C965114DE4F67 /* Products */ = {
@@ -580,6 +599,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		944064C173E2A0E523B69F577B4898DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68FFC635F96C5B2140EB932A8B695D56 /* LICENSE */,
+				AB22A54C63F16729ED8B174A59E99618 /* LoginServiceInterface.podspec */,
+				300BC8E20509C2BD88A1932B31E1784C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9512B49B1408696E363CB8B57AEBE797 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -592,20 +621,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Extensions";
-			sourceTree = "<group>";
-		};
-		9FA4789C5745BD85F45DC517F6F05EBA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C1FCD496DE8C69D3AE2F74658D913598 /* LoginServiceInterface.modulemap */,
-				B592E766615E61304E1CECAB7C588142 /* LoginServiceInterface.xcconfig */,
-				15B34C943E500CC83153A69279DEA389 /* LoginServiceInterface-dummy.m */,
-				B049FE67BAD758605CF18B4F8965DB6F /* LoginServiceInterface-Info.plist */,
-				C793BD7828362492DB9826286398ECB4 /* LoginServiceInterface-prefix.pch */,
-				E0F9D234F30906FDCA800350DA7EA882 /* LoginServiceInterface-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Project/Pods/Target Support Files/LoginServiceInterface";
 			sourceTree = "<group>";
 		};
 		A00C21C1E8B915465B3C78B6A93FF618 /* Frameworks */ = {
@@ -661,6 +676,21 @@
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
+		AA4911C713A69A53E0495D5D3634930E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF29401D6F9119B4A2162E09847A058 /* LoginService.modulemap */,
+				40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */,
+				1D6CC34FF6B59AA54770ECBFB5C66E77 /* LoginService-dummy.m */,
+				BA4629316746C2D510A7502B1BE51559 /* LoginService-Info.plist */,
+				23E75B4E4BF111733FC188BFEF331BB5 /* LoginService-prefix.pch */,
+				1FCFAF61F13695D6CC875A55312D4DC9 /* LoginService-umbrella.h */,
+				4E23B4BE0405F015BB9DBF3CCF9BD234 /* ResourceBundle-LoginService-LoginService-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Project/Pods/Target Support Files/LoginService";
+			sourceTree = "<group>";
+		};
 		AE885AE331E0FE42474EF4B7BA573F92 /* KLServer */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,16 +699,6 @@
 				55F5813B1CC993EDC3F342D951D7B898 /* Support Files */,
 			);
 			path = KLServer;
-			sourceTree = "<group>";
-		};
-		B28D5EF3E78C81A97C94C80CC91BFEE5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				55D4C52AFDF7DA8AEE715D53B38DFF4C /* LICENSE */,
-				5715AA0570E141085FD9227668DC21EE /* LoginService.podspec */,
-				71B5F6A741CCBEE5923602B5F83B2A63 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CE0CB253A03CA1E7B772911256DC2353 /* iOS */ = {
@@ -694,21 +714,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				85EAEBE52FE2CC445A950353D0CE57AD /* Development Pods */,
+				0060BE8F82C6724177575C8D0CF2FDE2 /* Development Pods */,
 				A00C21C1E8B915465B3C78B6A93FF618 /* Frameworks */,
 				9414870423C402D2B8E83BA926DC41C2 /* Pods */,
 				8DF829520363D3EF969C965114DE4F67 /* Products */,
 				6821C193524E5F5C52741A4E7E3B9BF6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFE5396C4463E5B62EFCADE5959334D2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				58750F6C8D438D460EE9D542826E017B /* LoginController.swift */,
-			);
-			name = Controller;
-			path = LoginService/Classes/Controller;
 			sourceTree = "<group>";
 		};
 		EA4C95797D2F0D39188AE81DCE7E69A8 /* Extensions */ = {
@@ -751,14 +762,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
-			sourceTree = "<group>";
-		};
-		FE0ADF1719C2B1A480A6610E4C046439 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6187B312BB3606E4732D4E26EA55A2C2 /* Images.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1015,11 +1018,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					19622742EBA51E823D6DAE3F8CDBFAD4 = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -1027,6 +1025,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8DF829520363D3EF969C965114DE4F67 /* Products */;
@@ -1162,6 +1161,7 @@
 			files = (
 				C8E02DF7760EE90A333FEE873FEB542C /* LoginController.swift in Sources */,
 				FBF7F27A2E52A19C9130B5FD38BE4905 /* LoginService-dummy.m in Sources */,
+				F69C6B57237DAEE20053CDAB /* LoginView.swift in Sources */,
 				4A4CFBAFBD31C15C7ADEB948E31366A4 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1347,7 +1347,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1392,7 +1392,7 @@
 		};
 		37F018476AD51348341B1C388CA3D1D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */;
+			baseConfigurationReference = 40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1488,7 +1488,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1570,7 +1570,7 @@
 		};
 		721AECC8BC73A06F4F07B8B434D10240 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */;
+			baseConfigurationReference = 40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1641,7 +1641,7 @@
 		};
 		75FA176B74F6C2D480487652F781C683 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B592E766615E61304E1CECAB7C588142 /* LoginServiceInterface.xcconfig */;
+			baseConfigurationReference = 8895260F2FB60811E26FD60A890C7DB0 /* LoginServiceInterface.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1838,7 +1838,7 @@
 		};
 		AD66E18E3718C2CDA6D294E41BBBD6CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B592E766615E61304E1CECAB7C588142 /* LoginServiceInterface.xcconfig */;
+			baseConfigurationReference = 8895260F2FB60811E26FD60A890C7DB0 /* LoginServiceInterface.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1909,7 +1909,7 @@
 		};
 		D626199AE46BDADE82E682719FA389F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */;
+			baseConfigurationReference = 40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginService";
@@ -1961,7 +1961,7 @@
 		};
 		EAFDA08F306C6F7BDE735B26B3806327 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971FE31592DBD2113711382D6059F671 /* LoginService.xcconfig */;
+			baseConfigurationReference = 40D634B0ED88B268ABF0C8E91C487236 /* LoginService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginService";
