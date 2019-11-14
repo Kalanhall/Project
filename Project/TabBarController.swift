@@ -25,14 +25,14 @@ class TabBarController: UITabBarController {
             let appearance = self.tabBar.standardAppearance.copy()
             appearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor : UIColor.lightGray]
             appearance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor : UIColor.black]
-            appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
-            appearance.stackedLayoutAppearance.selected.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
+            appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)
+            appearance.stackedLayoutAppearance.selected.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)
             self.tabBar.standardAppearance = appearance
         } else {
             for item in self.viewControllers ?? [] {
                 item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.lightGray], for: .normal)
                 item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.black], for: .selected)
-                item.tabBarItem.imageInsets = UIEdgeInsets(top: -4, left: 0, bottom: 4, right: 0)
+                item.tabBarItem.imageInsets = UIEdgeInsets(top: -3, left: 0, bottom: 3, right: 0)
                 item.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
             }
         }

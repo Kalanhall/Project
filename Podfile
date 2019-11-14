@@ -11,6 +11,7 @@ target 'Project' do
   # Pods for Project
   pod 'Alamofire'
   pod 'SnapKit'
-  pod 'HBDNavigationBar'
+  pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
+  pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
 
 end

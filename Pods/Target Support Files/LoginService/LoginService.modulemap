@@ -1,0 +1,6 @@
+framework module LoginService {
+  umbrella header "LoginService-umbrella.h"
+
+  export *
+  module * { export * }
+}

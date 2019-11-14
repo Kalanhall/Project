@@ -1,0 +1,35 @@
+{
+  "name": "LoginService",
+  "version": "0.0.1",
+  "summary": "A short description of LoginService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kalanhall@163.com/LoginService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kalanhall@163.com": "wujm002@galanz.com"
+  },
+  "source": {
+    "git": "https://github.com/Kalanhall@163.com/LoginService.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LoginService/Classes/**/*",
+  "resource_bundles": {
+    "LoginService": [
+      "LoginService/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Extensions": [
+      "~> 1.0.0"
+    ],
+    "HBDNavigationBar": [
+
+    ]
+  }
+}
