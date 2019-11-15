@@ -42,10 +42,10 @@ class TabBarController: UITabBarController {
         UINavigationBar.appearance().barTintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor.black]
         
-        // MARK: 导航栏返回按钮文字、图片处理
+        // MARK: 导航栏全局返回图片处理，位置只能在控制器中对UIBarButtonItem.imageInsets进行调整
         UINavigationBar.appearance().backIndicatorImage = UIImage(named: "back")
         UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "back")
-        // MARK: iOS13.1不起作用
+        // MARK: 导航栏全局按钮文字颜色设置，iOS13.1不起作用
         UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor : UIColor.clear], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor : UIColor.clear], for: .highlighted)
     }

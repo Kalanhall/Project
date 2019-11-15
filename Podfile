@@ -9,8 +9,7 @@ target 'Project' do
   use_frameworks!
 
   # Pods for Project
-  pod 'Alamofire'
-  pod 'SnapKit'
+  pod 'MLeaksFinder'
   pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
   pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
 

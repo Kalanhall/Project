@@ -1,28 +1,45 @@
 PODS:
   - Alamofire (4.9.1)
-  - Extensions (1.0.0)
+  - Extensions (1.0.1)
+  - FBRetainCycleDetector (0.1.4)
   - HBDNavigationBar (1.6.6)
   - KLServer (1.0.0)
   - LoginService (0.0.1):
-    - Extensions (~> 1.0.0)
+    - Alamofire
+    - Extensions
     - HBDNavigationBar
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+    - SnapKit
   - LoginServiceInterface (0.0.1):
     - KLServer
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - Alamofire
   - LoginService (from `/Users/kalan/Desktop/Swift/LoginService`)
   - LoginServiceInterface (from `/Users/kalan/Desktop/Swift/LoginServiceInterface`)
-  - SnapKit
+  - MLeaksFinder
 
 SPEC REPOS:
   https://github.com/Kalanhall/kalanrepo.git:
     - Extensions
   trunk:
     - Alamofire
+    - FBRetainCycleDetector
     - HBDNavigationBar
     - KLServer
+    - MLeaksFinder
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -33,13 +50,18 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Extensions: ab3cb014002ead31562d6144a06345aa915a7048
+  Extensions: 7849df56ec17d716b5d58d06f4b9b9115c2f23f9
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   HBDNavigationBar: b3c63058aa0c1509da6646469c491d9b70edbde1
   KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
-  LoginService: 048ad0da6ff63c81c345c32211b4455d06f56b99
+  LoginService: a2349e1b92b173782b7aea6fff48b30186f00766
   LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 5f3a7c66f31bdfac04ab154323257e99b7c1c31a
+PODFILE CHECKSUM: 65485882b103e859fb3e0946759f5787bc2d37b7
 
 COCOAPODS: 1.8.3
