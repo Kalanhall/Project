@@ -20,21 +20,21 @@ class TabBarController: UITabBarController {
         addChild(NavigationController(rootViewController: ViewController(), title: "购物", image: "Tab2", selectedImage: "Tab2-h"))
         addChild(NavigationController(rootViewController: ViewController(), title: "我的", image: "Tab3", selectedImage: "Tab3-h"))
         
-        // MARK: 适配iOS13选项卡色值
+        // MARK: 适配iOS13以下选项卡
+        for item in self.viewControllers ?? [] {
+            item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.lightGray], for: .normal)
+            item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.black], for: .selected)
+            item.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)     // iOS13以上无效
+            item.tabBarItem.imageInsets = UIEdgeInsets(top: -4, left: 0, bottom: 4, right: 0)   // 对现有版本都适用
+        }
+        // MARK: 适配iOS13选项卡
         if #available(iOS 13.0, *) {
             let appearance = self.tabBar.standardAppearance.copy()
             appearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor : UIColor.lightGray]
             appearance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor : UIColor.black]
-            appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)
-            appearance.stackedLayoutAppearance.selected.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)
+            appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
+            appearance.stackedLayoutAppearance.selected.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
             self.tabBar.standardAppearance = appearance
-        } else {
-            for item in self.viewControllers ?? [] {
-                item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.lightGray], for: .normal)
-                item.tabBarItem.setTitleTextAttributes([.foregroundColor : UIColor.black], for: .selected)
-                item.tabBarItem.imageInsets = UIEdgeInsets(top: -3, left: 0, bottom: 3, right: 0)
-                item.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
-            }
         }
         
         // MARK: 导航栏主体设置
