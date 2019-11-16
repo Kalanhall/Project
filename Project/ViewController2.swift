@@ -21,21 +21,21 @@ class ViewController2: UIViewController {
         self.view.backgroundColor = UIColor.white
         self.navigationItem.title = "二级页"
         
-        if #available(iOS 11.0, *) {
-            tableView.contentInsetAdjustmentBehavior = .never
-        } else {
-            self.automaticallyAdjustsScrollViewInsets = true
-        }
-        
-        view.addSubview(tableView)
-        tableView.snp_makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
-        
-        
-        tableView.rx.contentOffset.subscribe { [weak self] (contenOffset) in
-            print("\(String(describing: self?.tableView))")
-        }.disposed(by: disposeBag)
+//        if #available(iOS 11.0, *) {
+//            tableView.contentInsetAdjustmentBehavior = .never
+//        } else {
+//            self.automaticallyAdjustsScrollViewInsets = true
+//        }
+//        
+//        view.addSubview(tableView)
+//        tableView.snp_makeConstraints { (make) in
+//            make.edges.equalToSuperview()
+//        }
+//        
+//        
+//        tableView.rx.contentOffset.subscribe { [weak self] (contenOffset) in
+//            print("\(self!.view!)")
+//        }.disposed(by: disposeBag)
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
