@@ -12,6 +12,7 @@ PODS:
     - RxCocoa (~> 5)
     - RxSwift (~> 5)
     - SnapKit
+    - YYWebImage
   - LoginServiceInterface (0.0.1):
     - KLServer
   - MLeaksFinder (1.0.0):
@@ -23,6 +24,13 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
   - SnapKit (4.2.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
@@ -44,6 +52,9 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SnapKit
+    - YYCache
+    - YYImage
+    - YYWebImage
 
 EXTERNAL SOURCES:
   LoginService:
@@ -58,13 +69,16 @@ SPEC CHECKSUMS:
   HBDNavigationBar: b3c63058aa0c1509da6646469c491d9b70edbde1
   IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
   KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
-  LoginService: cbd6c80c411a0dc80ddf66e74dc1cc4b24f66159
+  LoginService: e4ad1eadabb1f71ef7138e9dbcaa275df6ad36d7
   LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
 PODFILE CHECKSUM: 1315a48bc1f5a7df37d35c368b79c2b45adba99d
 
