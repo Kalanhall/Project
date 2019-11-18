@@ -38,7 +38,7 @@
       "~> 5"
     ],
     "Extensions": [
-
+      "~> 1.0.1"
     ],
     "HBDNavigationBar": [
 

@@ -3,6 +3,7 @@ ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework
 ${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework
 ${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
 ${BUILT_PRODUCTS_DIR}/KLServer/KLServer.framework
 ${BUILT_PRODUCTS_DIR}/LoginService/LoginService.framework
 ${BUILT_PRODUCTS_DIR}/LoginServiceInterface/LoginServiceInterface.framework
