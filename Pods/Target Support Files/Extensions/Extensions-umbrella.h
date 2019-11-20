@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIViewController+LogExtension.h"
 
 FOUNDATION_EXPORT double ExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ExtensionsVersionString[];

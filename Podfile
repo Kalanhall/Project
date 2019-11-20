@@ -10,7 +10,6 @@ target 'Project' do
 
   # Pods for Project
   pod 'MLeaksFinder'
-  pod 'IQKeyboardManagerSwift'
   pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
   pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
 

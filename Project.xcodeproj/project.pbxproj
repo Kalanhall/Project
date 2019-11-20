@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7E561E76947D988C4B4B06D3 /* Pods_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF8DB664067C8F2695BBD91 /* Pods_Project.framework */; };
-		F648B799237B942C0035C49A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648B798237B942C0035C49A /* NavigationController.swift */; };
-		F648B79B237B94440035C49A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648B79A237B94440035C49A /* TabBarController.swift */; };
+		F648B799237B942C0035C49A /* KLNavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648B798237B942C0035C49A /* KLNavigationController+Extension.swift */; };
+		F648B79B237B94440035C49A /* UITabBarController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648B79A237B94440035C49A /* UITabBarController+Extension.swift */; };
 		F648C110237BA9620035C49A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648C10F237BA9620035C49A /* ViewController2.swift */; };
 		F69F415B237A5B3B003EC813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F415A237A5B3B003EC813 /* AppDelegate.swift */; };
 		F69F415F237A5B3B003EC813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F415E237A5B3B003EC813 /* ViewController.swift */; };
@@ -21,8 +21,8 @@
 		54034B2D7FB0125168B87AA9 /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.release.xcconfig"; path = "Target Support Files/Pods-Project/Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		822FCE5D60D92FD6FD7A0601 /* Pods-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.debug.xcconfig"; path = "Target Support Files/Pods-Project/Pods-Project.debug.xcconfig"; sourceTree = "<group>"; };
 		ABF8DB664067C8F2695BBD91 /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F648B798237B942C0035C49A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		F648B79A237B94440035C49A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F648B798237B942C0035C49A /* KLNavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KLNavigationController+Extension.swift"; sourceTree = "<group>"; };
+		F648B79A237B94440035C49A /* UITabBarController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extension.swift"; sourceTree = "<group>"; };
 		F648C10F237BA9620035C49A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F69F4157237A5B3B003EC813 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69F415A237A5B3B003EC813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 				F69F4163237A5B3D003EC813 /* Assets.xcassets */,
 				F69F4168237A5B3D003EC813 /* Info.plist */,
 				F69F4165237A5B3D003EC813 /* LaunchScreen.storyboard */,
-				F648B798237B942C0035C49A /* NavigationController.swift */,
-				F648B79A237B94440035C49A /* TabBarController.swift */,
+				F648B798237B942C0035C49A /* KLNavigationController+Extension.swift */,
+				F648B79A237B94440035C49A /* UITabBarController+Extension.swift */,
 				F69F415E237A5B3B003EC813 /* ViewController.swift */,
 				F648C10F237BA9620035C49A /* ViewController2.swift */,
 			);
@@ -212,8 +212,8 @@
 			files = (
 				F648C110237BA9620035C49A /* ViewController2.swift in Sources */,
 				F69F415F237A5B3B003EC813 /* ViewController.swift in Sources */,
-				F648B79B237B94440035C49A /* TabBarController.swift in Sources */,
-				F648B799237B942C0035C49A /* NavigationController.swift in Sources */,
+				F648B79B237B94440035C49A /* UITabBarController+Extension.swift in Sources */,
+				F648B799237B942C0035C49A /* KLNavigationController+Extension.swift in Sources */,
 				F69F415B237A5B3B003EC813 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

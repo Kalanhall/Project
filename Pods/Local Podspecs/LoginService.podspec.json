@@ -25,6 +25,12 @@
     ]
   },
   "dependencies": {
+    "Extensions": [
+      "~> 1.0.0"
+    ],
+    "KLProgressHUD": [
+      "~> 1.0.0"
+    ],
     "SnapKit": [
 
     ],
@@ -37,13 +43,13 @@
     "RxCocoa": [
       "~> 5"
     ],
-    "Extensions": [
-      "~> 1.0.1"
-    ],
-    "HBDNavigationBar": [
+    "KLNavigationController": [
 
     ],
     "YYWebImage": [
+
+    ],
+    "IQKeyboardManagerSwift": [
 
     ]
   }

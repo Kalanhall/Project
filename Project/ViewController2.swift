@@ -10,6 +10,7 @@ import UIKit
 import LoginServiceInterface
 import RxSwift
 import RxCocoa
+import KLNavigationController
 
 class ViewController2: UIViewController {
     
@@ -40,7 +41,7 @@ class ViewController2: UIViewController {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let vc = KLServer.shared().login(with: nil)
-        let nc = NavigationController(rootViewController: vc!)
+        let nc = KLNavigationController(rootViewController: vc)
         nc.modalPresentationStyle = .fullScreen
         self.present(nc, animated: true, completion: nil)
     }

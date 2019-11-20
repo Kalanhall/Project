@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.navigationItem.title = "商城"
+        
     }
  
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

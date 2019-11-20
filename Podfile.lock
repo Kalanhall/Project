@@ -1,20 +1,25 @@
 PODS:
   - Alamofire (4.9.1)
-  - Extensions (1.0.1)
+  - Extensions (1.0.5)
   - FBRetainCycleDetector (0.1.4)
-  - HBDNavigationBar (1.6.6)
   - IQKeyboardManagerSwift (6.5.4)
+  - KLNavigationController (1.0.0)
+  - KLProgressHUD (1.0.1):
+    - MBProgressHUD
   - KLServer (1.0.0)
   - LoginService (0.0.1):
     - Alamofire
-    - Extensions (~> 1.0.1)
-    - HBDNavigationBar
+    - Extensions (~> 1.0.0)
+    - IQKeyboardManagerSwift
+    - KLNavigationController
+    - KLProgressHUD (~> 1.0.0)
     - RxCocoa (~> 5)
     - RxSwift (~> 5)
     - SnapKit
     - YYWebImage
   - LoginServiceInterface (0.0.1):
     - KLServer
+  - MBProgressHUD (1.1.0)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
   - RxCocoa (5.0.1):
@@ -33,7 +38,6 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - IQKeyboardManagerSwift
   - LoginService (from `/Users/kalan/Desktop/Swift/LoginService`)
   - LoginServiceInterface (from `/Users/kalan/Desktop/Swift/LoginServiceInterface`)
   - MLeaksFinder
@@ -41,12 +45,14 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/Kalanhall/kalanrepo.git:
     - Extensions
+    - KLProgressHUD
   trunk:
     - Alamofire
     - FBRetainCycleDetector
-    - HBDNavigationBar
     - IQKeyboardManagerSwift
+    - KLNavigationController
     - KLServer
+    - MBProgressHUD
     - MLeaksFinder
     - RxCocoa
     - RxRelay
@@ -64,13 +70,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Extensions: 7849df56ec17d716b5d58d06f4b9b9115c2f23f9
+  Extensions: b5bced2c52190bbcb09132194b59f9315acd9fa4
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
-  HBDNavigationBar: b3c63058aa0c1509da6646469c491d9b70edbde1
   IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  KLNavigationController: ed8a50a14e54a499d3a483c681bb7f394002a6bf
+  KLProgressHUD: 02604b90a034a25bf5ecf9305df9967e0b961249
   KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
-  LoginService: e4ad1eadabb1f71ef7138e9dbcaa275df6ad36d7
+  LoginService: f282bd3b58e087d3f4d95e1fe95644c81ab3ae07
   LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
@@ -80,6 +88,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 1315a48bc1f5a7df37d35c368b79c2b45adba99d
+PODFILE CHECKSUM: 65485882b103e859fb3e0946759f5787bc2d37b7
 
 COCOAPODS: 1.8.3
