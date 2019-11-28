@@ -38,12 +38,12 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - LoginService (from `/Users/kalan/Desktop/Swift/LoginService`)
-  - LoginServiceInterface (from `/Users/kalan/Desktop/Swift/LoginServiceInterface`)
+  - LoginService (from `https://github.com/Kalanhall/LoginService.git`)
+  - LoginServiceInterface (from `https://github.com/Kalanhall/LoginServiceInterface.git`)
   - MLeaksFinder
 
 SPEC REPOS:
-  https://github.com/Kalanhall/kalanrepo.git:
+  https://github.com/Kalanhall/Specs.git:
     - Extensions
     - KLProgressHUD
   trunk:
@@ -64,9 +64,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LoginService:
-    :path: "/Users/kalan/Desktop/Swift/LoginService"
+    :git: https://github.com/Kalanhall/LoginService.git
   LoginServiceInterface:
-    :path: "/Users/kalan/Desktop/Swift/LoginServiceInterface"
+    :git: https://github.com/Kalanhall/LoginServiceInterface.git
+
+CHECKOUT OPTIONS:
+  LoginService:
+    :commit: e9583a422b771533a876e23fa4baedc9c16bc6e6
+    :git: https://github.com/Kalanhall/LoginService.git
+  LoginServiceInterface:
+    :commit: f4d7fe25044ec52837f402e914f32b1037295efd
+    :git: https://github.com/Kalanhall/LoginServiceInterface.git
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -88,6 +96,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 65485882b103e859fb3e0946759f5787bc2d37b7
+PODFILE CHECKSUM: f7e31c8c29d764b5e53d077acf2c2ec5cb663125
 
 COCOAPODS: 1.8.3

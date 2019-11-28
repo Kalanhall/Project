@@ -2,7 +2,7 @@
 # platform :ios, '9.0'
 
 source 'https://cdn.cocoapods.org'
-source 'https://github.com/Kalanhall/kalanrepo.git'
+source 'https://github.com/Kalanhall/Specs.git'
 inhibit_all_warnings!
 target 'Project' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -10,8 +10,9 @@ target 'Project' do
 
   # Pods for Project
   pod 'MLeaksFinder'
-  pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
-  pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
+  # 开发阶段指向源码库，发布版本直接指向私有库
+  pod 'LoginService', :git=>'https://github.com/Kalanhall/LoginService.git'
+  pod 'LoginServiceInterface', :git=>'https://github.com/Kalanhall/LoginServiceInterface.git'
 
 end
 
