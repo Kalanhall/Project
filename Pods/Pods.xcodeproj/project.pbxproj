@@ -355,6 +355,7 @@
 		F534D6CB4D76867EB238BE8AD8FF4299 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17DD0B7387A38E8E48B69C5FE7B072 /* ConstraintPriority.swift */; };
 		F58D85151A8A3F37E06D1D70BCD8966F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F85C3584DFD6CD4256B7270265013 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F61FC6A05202E8406CA9A53A4D729250 /* YKWChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF0ACB020EE64EEFCB284FD751C207 /* YKWChartView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F6266037241CCE3000CE010F /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6266036241CCE3000CE010F /* HomeNavigationBar.swift */; };
 		F697E6E2B2F10EE635255C528955A531 /* YKWPluginsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 074C07650E4958FF935CE263FC492982 /* YKWPluginsWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F6A718E53FB6F4AF4B377EFF47E58C60 /* HomeServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA78C404682430EF4BBE54859D93423 /* HomeServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6AAC64BCC5A398E52BD3E9678AB3B5A /* UIImage +YKWoodpeckerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0FDB9B4DE03FC1880A2028FB9C3E5 /* UIImage +YKWoodpeckerAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -633,12 +634,12 @@
 		03412EEF077D607C889BD2EFCF98A5AB /* YKWFollowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWFollowView.h; path = YKWoodpecker/Common/FollowView/YKWFollowView.h; sourceTree = "<group>"; };
 		0375A98F11B3DA7B9045EA45B9DD0269 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		03815CF2F8EB68B954BF120A2F52BF42 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		03D22630D852EB5EC6C4BB3E54227000 /* LoginService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginService.framework; path = LoginService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04510B6A58C24677BAF5461732973A19 /* HomeServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomeServiceInterface.framework; path = HomeServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D22630D852EB5EC6C4BB3E54227000 /* LoginService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04510B6A58C24677BAF5461732973A19 /* HomeServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		045CE2CDCEA9B1360FC18FDE1F685649 /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04791FB2619B3CC5FED1E05C5591F91F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
 		0578888A07070808C943D74A08261A14 /* YKWBundleResourcePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWBundleResourcePlugin.m; path = YKWoodpecker/Plugins/BundleResourcePlugin/YKWBundleResourcePlugin.m; sourceTree = "<group>"; };
-		058EFEE024EFA928EE9379DEEF65A94E /* HomeService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomeService.framework; path = HomeService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		058EFEE024EFA928EE9379DEEF65A94E /* HomeService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B373A03B888DABC3513AAC51C6A084 /* HomeService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeService.xcconfig; sourceTree = "<group>"; };
 		0623AC21C5E8FE538F8F6095C734B3B7 /* NSArray+YKWoodpeckerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YKWoodpeckerAdditions.m"; path = "YKWoodpecker/Category/NSArray+YKWoodpeckerAdditions.m"; sourceTree = "<group>"; };
 		069C727156D4BAC34AF43D8908EDA391 /* YKWoodpecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YKWoodpecker-dummy.m"; sourceTree = "<group>"; };
@@ -660,7 +661,7 @@
 		0F68830CB17267FE3861C12BF180ED09 /* KLLeaks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLLeaks-prefix.pch"; sourceTree = "<group>"; };
 		0FE0FDB9B4DE03FC1880A2028FB9C3E5 /* UIImage +YKWoodpeckerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage +YKWoodpeckerAdditions.m"; path = "YKWoodpecker/Category/UIImage +YKWoodpeckerAdditions.m"; sourceTree = "<group>"; };
 		10399C493A05C2743DD63F8F3A91CFC9 /* YKWRulerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWRulerView.h; path = YKWoodpecker/Plugins/ProbeRulerPlugin/RulerTool/YKWRulerView.h; sourceTree = "<group>"; };
-		104DAAC5058A8F02AE1FC5E481DA4CC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		104DAAC5058A8F02AE1FC5E481DA4CC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		111FA5759D7F2AF69A9089D1F81DC5FF /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		1233513A642A1C770C1899D13B16CE7F /* YKWAllImagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWAllImagesViewController.h; path = YKWoodpecker/Plugins/AllImagesPlugin/YKWAllImagesViewController.h; sourceTree = "<group>"; };
 		124D3D958D3C91532ECAD6B4EF0702DC /* YKWChartLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWChartLineView.m; path = YKWoodpecker/Common/ChartWindow/YKWChartLineView.m; sourceTree = "<group>"; };
@@ -686,7 +687,7 @@
 		1D4D84C0ADBD2DCB365AA00B3F6A83FD /* YKWImageTextPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWImageTextPreview.m; path = YKWoodpecker/Common/TextImagePreview/YKWImageTextPreview.m; sourceTree = "<group>"; };
 		1F41C292AB34E1725F58723A3E5FA442 /* YKWTouchIndicatorPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWTouchIndicatorPlugin.m; path = YKWoodpecker/Plugins/TouchIndicatorPlugin/YKWTouchIndicatorPlugin.m; sourceTree = "<group>"; };
 		1F7CA933C0E132F927B01C9A713889A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BF0ACB020EE64EEFCB284FD751C207 /* YKWChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWChartView.m; path = YKWoodpecker/Common/ChartWindow/YKWChartView.m; sourceTree = "<group>"; };
 		20F1BE9585F69F9627A6D79E5DD24E7E /* YKWCmdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWCmdView.m; path = YKWoodpecker/Plugins/CommandPlugin/CmdView/YKWCmdView.m; sourceTree = "<group>"; };
 		20F4254D3ED553CCE0298A3D88252A93 /* YKWCmdModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWCmdModel.m; path = YKWoodpecker/Plugins/CommandPlugin/CmdView/YKWCmdModel.m; sourceTree = "<group>"; };
@@ -714,7 +715,7 @@
 		2A90AA284BD0340F09D109D20817CB6D /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		2AD842897639DF3ABD12FB7C9BDCF57F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		2AF8FDF960F8E9860C26FA1B605957A0 /* YKWImageTextPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWImageTextPreview.h; path = YKWoodpecker/Common/TextImagePreview/YKWImageTextPreview.h; sourceTree = "<group>"; };
-		2B725C4CC90BA904D31122F096872954 /* KLConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLConsole.framework; path = KLConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B725C4CC90BA904D31122F096872954 /* KLConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB026482E4EC75A44EE6A775C8A7794 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2D55A97D85B676D5F6A377D1E0C0FB99 /* YKWPluginsWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWPluginsWindow.h; path = YKWoodpecker/Base/PluginManage/YKWPluginsWindow.h; sourceTree = "<group>"; };
 		2D8F77218D48DFF4ADAF91C9E232A446 /* Extensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-umbrella.h"; sourceTree = "<group>"; };
@@ -722,14 +723,14 @@
 		2DBE131D938F57AFB9D05EB08BDBE674 /* HomeServiceInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeServiceInterface-prefix.pch"; sourceTree = "<group>"; };
 		2E4D76772BBB88B4F99E38A9B450F360 /* YKWRotationWindowRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWRotationWindowRootViewController.m; path = YKWoodpecker/Base/PluginManage/YKWRotationWindowRootViewController.m; sourceTree = "<group>"; };
 		306D354BE2B2426CF80D80F7F9FBEBC4 /* YKWProbeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWProbeView.h; path = YKWoodpecker/Plugins/ProbeRulerPlugin/ViewProbe/YKWProbeView.h; sourceTree = "<group>"; };
-		3096580679A9238C4BDF66846EA5E224 /* KLLeaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLLeaks.framework; path = KLLeaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3096580679A9238C4BDF66846EA5E224 /* KLLeaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLLeaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32ED6B02AE956C17E5FC55BD1FAB84C3 /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3323B887FC1A6723174075581982A72B /* KLConsoleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLConsoleCell.m; path = KLConsole/Classes/KLConsoleCell.m; sourceTree = "<group>"; };
 		3442BA26121CC1633F8023430E9F2F6A /* UIViewController+KLNavigaitonController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KLNavigaitonController.m"; path = "KLNavigationController/Classes/UIViewController+KLNavigaitonController.m"; sourceTree = "<group>"; };
 		345E526BC57DF643DC0E2764949DA597 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		3487C139F824A395CD10E07C9B72B822 /* YKWDataFlowPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWDataFlowPlugin.h; path = YKWoodpecker/Plugins/DataFlowPlugin/YKWDataFlowPlugin.h; sourceTree = "<group>"; };
 		34BE6E44B600CD9E4A0B352E51E9F5B7 /* NSObject+KLConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KLConsole.h"; path = "KLConsole/Classes/NSObject+KLConsole.h"; sourceTree = "<group>"; };
-		34DB44B7167A2E5B7D9D96322B2D7F9F /* HomeService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HomeService.bundle; path = "HomeService-HomeService.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DB44B7167A2E5B7D9D96322B2D7F9F /* HomeService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		365CB86B7CF3F5631FE133D2D5584DA6 /* YKWPluginModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWPluginModel.m; path = YKWoodpecker/Base/PluginManage/YKWPluginModel.m; sourceTree = "<group>"; };
 		3705C6EDCF0031ABD34CF677D8A3C7C4 /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+MemoryLeak.h"; path = "KLLeaks/Classes/UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
 		370E76E3207180E95A6ECD27F1A37A16 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
@@ -738,7 +739,7 @@
 		38295005101583E073FEAFAA44B77A08 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		386C5CE224C63BDA3AA9793051F496D6 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
 		387376C17DDB35774F54C979F84FB2E3 /* YKWRotationWindowRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWRotationWindowRootViewController.h; path = YKWoodpecker/Base/PluginManage/YKWRotationWindowRootViewController.h; sourceTree = "<group>"; };
-		387B8DE31740055E7495903055300C4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		387B8DE31740055E7495903055300C4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		390831184EEC41D52FDC27E12BE7FD29 /* KLLeakedObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLLeakedObjectProxy.h; path = KLLeaks/Classes/KLLeakedObjectProxy.h; sourceTree = "<group>"; };
 		3AD04675CC0FB0A3B79C7C5FBC28F82D /* KLProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLProgressHUD.xcconfig; sourceTree = "<group>"; };
 		3BFB115DFC520E91CF3A0536AA01FE01 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
@@ -755,15 +756,15 @@
 		45E8C214CE0CD7F3B2214BADD692E2F5 /* KLConsoleInfoController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLConsoleInfoController.m; path = KLConsole/Classes/KLConsoleInfoController.m; sourceTree = "<group>"; };
 		4645DA1E476BB7DAFA41BA617C30A703 /* YKWCommandPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWCommandPlugin.h; path = YKWoodpecker/Plugins/CommandPlugin/YKWCommandPlugin.h; sourceTree = "<group>"; };
 		46AAA5E903E2EAE92119C9274FD0AA16 /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = KLLeaks/Classes/MLeaksFinder.h; sourceTree = "<group>"; };
-		47DA9FCC328641EBE28698625195BA42 /* YKWoodpecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YKWoodpecker.framework; path = YKWoodpecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DA9FCC328641EBE28698625195BA42 /* YKWoodpecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKWoodpecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EAEFB2E5B05F0D97B22FABB47AB48C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		49C123A879E71D16813991C8B45FC104 /* YKWoodpecker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YKWoodpecker-umbrella.h"; sourceTree = "<group>"; };
 		4B8A6BA1B7574B065793AC209379519E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		4C104465A961FFF5A4429406158F1B93 /* YKWUIComparePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWUIComparePlugin.m; path = YKWoodpecker/Plugins/UIComparePlugin/YKWUIComparePlugin.m; sourceTree = "<group>"; };
 		4CAF83F4507E8A807660E341AFAAC98B /* YKWJSONGrabPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWJSONGrabPlugin.m; path = YKWoodpecker/Plugins/JSONGrabPlugin/YKWJSONGrabPlugin.m; sourceTree = "<group>"; };
-		4DE7701971BD32E0A0FB47E18E85FD1A /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Project.framework; path = "Pods-Project.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE7701971BD32E0A0FB47E18E85FD1A /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEDCF6AFC9D931CBBF3A69706EC2D73 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		4E45C15D9177865DF3CAEECD9AF19BBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E45C15D9177865DF3CAEECD9AF19BBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5072AFC37B21F0E6A170EDF8EA021E1A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		52C34EF6EFF90607C0BCBF71A8D41E84 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		52CB5EC3292135B3571F658C16A8E9A1 /* YKWCPUPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWCPUPlugin.m; path = YKWoodpecker/Plugins/CPUPlugin/YKWCPUPlugin.m; sourceTree = "<group>"; };
@@ -785,7 +786,7 @@
 		5BE6E6DD0BAA0BA29953D262127D9820 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		5C3FACCB3F82F29A3C2B6161C3255F0A /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "KLLeaks/Classes/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
 		5D0225CFBFF04C0F630360EA047DC7DB /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D79B69301EF5C4AE7A4B3C63A785FA2 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		6004C31D15A2EE07F03FB9B0D238B124 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "KLLeaks/Classes/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
 		6012EF7EC4F6426AD42BEEC8032E6446 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "KLLeaks/Classes/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
@@ -824,9 +825,9 @@
 		7331172FD4ED414A35CA8EBBEAF7C11A /* YKWSandBoxPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWSandBoxPlugin.h; path = YKWoodpecker/Plugins/SandBoxPlugin/YKWSandBoxPlugin.h; sourceTree = "<group>"; };
 		746207443794F0DEBEBF7A9855BB3AB0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		74E12234405B06A08938203CFD9CD404 /* YKWUIComparePanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWUIComparePanel.h; path = YKWoodpecker/Plugins/UIComparePlugin/Panel/YKWUIComparePanel.h; sourceTree = "<group>"; };
-		75E36230B6AE8D73072552CEFEF95015 /* LoginService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoginService.bundle; path = "LoginService-LoginService.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E36230B6AE8D73072552CEFEF95015 /* LoginService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		762DE228E7C69D296E7BEBFB8B9EBEE4 /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "Extensions/Classes/UIButton+Extension.swift"; sourceTree = "<group>"; };
-		76349305D465D51BB0B90D6B792F04E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76349305D465D51BB0B90D6B792F04E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		76361DC926CCE9648CE7001D2C3F80EE /* YKWoodpecker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YKWoodpecker-prefix.pch"; sourceTree = "<group>"; };
 		78063C532C89AC8EAB9EDEEB4911B15E /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		78360C7188503B2ABB3CBC1D512DC6E1 /* YKWCmdCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWCmdCollectionViewCell.m; path = YKWoodpecker/Plugins/CommandPlugin/CmdView/YKWCmdCollectionViewCell.m; sourceTree = "<group>"; };
@@ -843,7 +844,7 @@
 		7D7EC2E428B761B6A016EA37FE0C7FEB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		7E68EB931B68D2CE66DE502978CE216E /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		7E955C5E926436CA6F755A6FA555623C /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		7EAB4CFD305C74341CDCCC43D260F6F4 /* KLProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLProgressHUD.framework; path = KLProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAB4CFD305C74341CDCCC43D260F6F4 /* KLProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2B35C25C03663075DF66AAEF64D0D1 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		7F4FBDE117BB2FA6F2831A8E6669836D /* KLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLNavigationController.h; path = KLNavigationController/Classes/KLNavigationController.h; sourceTree = "<group>"; };
 		7FD5A26F57F887B1168239527341109A /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -852,7 +853,7 @@
 		82187D3985FEFB0070416331B0B5AA7E /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		8218E2895B6CF91BE07C011E0FC753B9 /* KLConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLConsole.h; path = KLConsole/Classes/KLConsole.h; sourceTree = "<group>"; };
 		8336C9574DA60B67A5DD4E8E7ACD3ED8 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		837F24887CED3EFA1988357BFEA6075F /* LoginService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		837F24887CED3EFA1988357BFEA6075F /* LoginService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		848CA1AA54FA4EF08721D422B40C1FBC /* YKWDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWDrawView.h; path = YKWoodpecker/Plugins/UIComparePlugin/Panel/YKWDrawView.h; sourceTree = "<group>"; };
 		852D6F4DD77F4EF1DAD183E421EAD751 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		85DB51E8645DD9713B6D1A9072377350 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
@@ -865,7 +866,7 @@
 		89CCFAED932A5506CF3469035D345432 /* Pods-Project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project-Info.plist"; sourceTree = "<group>"; };
 		8A342CFC93043F5BEEA50170A381A5B4 /* YKWPoCommandPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWPoCommandPlugin.h; path = YKWoodpecker/Plugins/PoCommandPlugin/YKWPoCommandPlugin.h; sourceTree = "<group>"; };
 		8B6DCA317B81FBA91E110E4FE1E73F5D /* Extensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extensions-dummy.m"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8FC21EB460A54E0705F43D157C00FC /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		8C4AD055D4B56BBE1DC09D5FBE59CE8F /* HomeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeService.swift; path = HomeService/Classes/HomeService.swift; sourceTree = "<group>"; };
 		8D74D2E1B9D6A4EB65F2B8E792ACE0D1 /* KLNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLNavigationController-dummy.m"; sourceTree = "<group>"; };
@@ -878,14 +879,14 @@
 		95F5FE2901D12E36FA9380A05433D993 /* KLProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		95FC65E0E31B1EB77302DD6E867E820D /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		9783144AEC3EAE12B586FC44893602A1 /* KLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLNavigationController.m; path = KLNavigationController/Classes/KLNavigationController.m; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FFAC2DBAC7A5D64DFCEA2A1FB9AAFE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		992111E0461552401E5685EA44F7090A /* KLConsoleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLConsoleConfig.h; path = KLConsole/Classes/KLConsoleConfig.h; sourceTree = "<group>"; };
 		99239AEA6707AD1233729D0E0DD8287D /* Pods-Project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project-frameworks.sh"; sourceTree = "<group>"; };
 		99F013325FF5FAE8CBA5DE4297F3558A /* Pods-Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project-dummy.m"; sourceTree = "<group>"; };
 		9B11D306693F5F96F4299B99DBC66B70 /* YKWoodpecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YKWoodpecker.modulemap; sourceTree = "<group>"; };
 		9D8A33F1CADBC32EE5BFB8C33A09A11A /* woodpecker_plugin_list_en.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = woodpecker_plugin_list_en.plist; path = YKWoodpecker/Plugins/woodpecker_plugin_list_en.plist; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2A854582663637C84A71A341F8FBB3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		9EC0EE64569F422E5A8BABAF008136D3 /* KLLeaks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLLeaks.xcconfig; sourceTree = "<group>"; };
 		9EE9D0547B629A828AE55080E139DC0E /* YKWFPSPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWFPSPlugin.m; path = YKWoodpecker/Plugins/FPSPlugin/YKWFPSPlugin.m; sourceTree = "<group>"; };
@@ -909,13 +910,13 @@
 		A6DD8612E1CAE249F5F36822A9A9B838 /* KLConsoleController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLConsoleController.m; path = KLConsole/Classes/KLConsoleController.m; sourceTree = "<group>"; };
 		A742B5374385CEA7FD3280867E5EA977 /* HomeService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeService-umbrella.h"; sourceTree = "<group>"; };
 		A7724462C68E392E9B2D00B9A959C4A3 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		A7BA0D8CB695C258145FC33A9BF7AF06 /* HomeServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7BA0D8CB695C258145FC33A9BF7AF06 /* HomeServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HomeServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7C5D121C0C759A3137841A448A1F9CA /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		A7E07FE5A56F829B82392F78355C7618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C80BB50CD87002EDED467602136CE /* YKWCrashLogPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWCrashLogPlugin.h; path = YKWoodpecker/Plugins/CrashLogPlugin/YKWCrashLogPlugin.h; sourceTree = "<group>"; };
 		A929AC9B2625D535941D87B4D76B67B1 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLServer.framework; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF230327ADD64B31278DD60EE4A1224 /* HomeSpecialController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeSpecialController.swift; sourceTree = "<group>"; };
 		ABF8E1CC2C3CEDB802A892F0FADD44CD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		AC0D52D1E0147008EF48D566BC670E38 /* YKWDataFlowUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWDataFlowUtils.h; path = YKWoodpecker/Plugins/DataFlowPlugin/YKWDataFlowUtils.h; sourceTree = "<group>"; };
@@ -923,7 +924,7 @@
 		ACA5F28959EEF20419A122A128D86E3C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		ADE7DD0FB54098E550475D4D2AEBF2CF /* YKWPoCommandCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWPoCommandCore.h; path = YKWoodpecker/Plugins/PoCommandPlugin/YKWPoCommandCore.h; sourceTree = "<group>"; };
 		ADFA9CF4577995FB14915B43BD1C1EC7 /* YKWObjectTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWObjectTableView.m; path = YKWoodpecker/Plugins/ProbeRulerPlugin/ObjectProbe/YKWObjectTableView.m; sourceTree = "<group>"; };
-		AF064437A84EDA441A34ED94771C15A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF064437A84EDA441A34ED94771C15A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AF439160B83278BA246080AF1B1475CA /* KLNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F85C3584DFD6CD4256B7270265013 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		AFF2046E3C6576F4A6A112441EBC7EBA /* KLServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLServer.m; path = KLServer/Classes/KLServer.m; sourceTree = "<group>"; };
@@ -931,14 +932,14 @@
 		B16CDE6FA43E0F8C0F735A7D29DA1502 /* KLConsoleInfoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLConsoleInfoController.h; path = KLConsole/Classes/KLConsoleInfoController.h; sourceTree = "<group>"; };
 		B1AF1506E13A31E8667FDCF1694EDF3F /* NSObject+KLConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KLConsole.m"; path = "KLConsole/Classes/NSObject+KLConsole.m"; sourceTree = "<group>"; };
 		B1F5F8E15456692D8E94392D48AC948D /* HomeService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeService-prefix.pch"; sourceTree = "<group>"; };
-		B22B7D100E8D1CBC3B89F61B8C61C072 /* KLNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLNavigationController.framework; path = KLNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22B7D100E8D1CBC3B89F61B8C61C072 /* KLNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B239342DAF747CCEB8B5AC05954C6FB2 /* LoginService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginService-Info.plist"; sourceTree = "<group>"; };
 		B55C453C2C7A492DB9B8DBBF6B0EAB12 /* YKWCmdCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWCmdCore.m; path = YKWoodpecker/Plugins/CommandPlugin/CmdCore/YKWCmdCore.m; sourceTree = "<group>"; };
 		B6157267BCD98532A8DC7359CA38A5C3 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		B650CCB802EEA718789270B7A1EFA5C3 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		B7BA26009D0A9883EBDE28955A4E9E4A /* Extensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Extensions-Info.plist"; sourceTree = "<group>"; };
 		B7D70145922F09D1F7213B899D961C1A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginServiceInterface.framework; path = LoginServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FBDFEC793BCBEFCD1319BE31B08CAC /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		B9CE652A165DA0706D436804B749AD7A /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
 		BA42BDD044AFA6DB3A692DCD74544580 /* Pods-Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -966,13 +967,13 @@
 		C77C6FA6A8FAE38CC52B92581B6B9F8B /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		C92CBE1C231781FA66760005E99B56D8 /* UIViewController+KLNavigaitonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KLNavigaitonController.h"; path = "KLNavigationController/Classes/UIViewController+KLNavigaitonController.h"; sourceTree = "<group>"; };
 		CAA78C404682430EF4BBE54859D93423 /* HomeServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeServiceInterface-umbrella.h"; sourceTree = "<group>"; };
-		CAC24733EDDF197EE3CBA7AAF916BED5 /* HomeService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CAC24733EDDF197EE3CBA7AAF916BED5 /* HomeService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HomeService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAE7877A1D5F17720E88984D7C825050 /* YKWBundleResourcePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWBundleResourcePlugin.h; path = YKWoodpecker/Plugins/BundleResourcePlugin/YKWBundleResourcePlugin.h; sourceTree = "<group>"; };
 		CB1C0F8ACABACE3BBF57BF4B6D481FA4 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		CB272012EAE29C314DB1F63ED1A97010 /* KLConsole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLConsole-prefix.pch"; sourceTree = "<group>"; };
-		CB363BB083CF107CEB3AC14DDB9DDE41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB363BB083CF107CEB3AC14DDB9DDE41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB8461204B95B0E1647624157B2A077F /* HomeService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HomeService-Info.plist"; sourceTree = "<group>"; };
-		CBB3437BA9B953EBB1EAE610B7CCB54A /* ykwoodpecker_cn.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ykwoodpecker_cn.json; path = YKWoodpecker/Utils/ykwoodpecker_cn.json; sourceTree = "<group>"; };
+		CBB3437BA9B953EBB1EAE610B7CCB54A /* ykwoodpecker_cn.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = ykwoodpecker_cn.json; path = YKWoodpecker/Utils/ykwoodpecker_cn.json; sourceTree = "<group>"; };
 		CC54CFD03C8BF934F55A70329B684B3D /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "KLLeaks/Classes/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
 		CD50FB2A89423E8CD3BF27A1473B8C0A /* YKWTouchIndicatorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWTouchIndicatorPlugin.h; path = YKWoodpecker/Plugins/TouchIndicatorPlugin/YKWTouchIndicatorPlugin.h; sourceTree = "<group>"; };
 		CDDFB8AFB458797CF9CD18B70FCA7865 /* ResourceBundle-HomeService-HomeService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HomeService-HomeService-Info.plist"; sourceTree = "<group>"; };
@@ -1000,10 +1001,10 @@
 		D7B40FDFB03BD736C6E54744D6A37958 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		D81368BFCC9A68E7E514B7F9837557E4 /* YKWoodpecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YKWoodpecker.xcconfig; sourceTree = "<group>"; };
 		D819E7C76804D25FD84661920D406C27 /* YKWCPUPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWCPUPlugin.h; path = YKWoodpecker/Plugins/CPUPlugin/YKWCPUPlugin.h; sourceTree = "<group>"; };
-		D9690DCCCD3A458263318C2396125179 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D9690DCCCD3A458263318C2396125179 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB499EA4AE1450F84630934EC6C0F90C /* YKWoodpecker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YKWoodpecker-Info.plist"; sourceTree = "<group>"; };
 		DBA420405FCEE017DA91EC2DC0A4D4FC /* LoginServiceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceInterface.swift; path = LoginServiceInterface/Classes/LoginServiceInterface.swift; sourceTree = "<group>"; };
-		DC8DBFA767C5754E6B95A82C1168CD2C /* LoginServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC8DBFA767C5754E6B95A82C1168CD2C /* LoginServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DCB3DD33C2284DE87182EDAE35D31C69 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		DDC327BCC63938013DFE412C605F5E80 /* YKWMemoryUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWMemoryUtils.m; path = YKWoodpecker/Plugins/MemoryPlugin/YKWMemoryUtils.m; sourceTree = "<group>"; };
 		DDD329695B336E029CF66F8DA6010ADF /* UIDevice+KLConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+KLConsole.m"; path = "KLConsole/Classes/UIDevice+KLConsole.m"; sourceTree = "<group>"; };
@@ -1028,7 +1029,7 @@
 		E99274184474B2D91FEEFF489AA3335D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		E9A351BD2FFFDFE1A914F031F6F62176 /* YKWClearDataPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWClearDataPlugin.m; path = YKWoodpecker/Plugins/ClearDataPlugin/YKWClearDataPlugin.m; sourceTree = "<group>"; };
 		E9F4E1EEE106929DADFB16422A49DBF5 /* KLConsoleCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLConsoleCell.h; path = KLConsole/Classes/KLConsoleCell.h; sourceTree = "<group>"; };
-		EA5AA45DC5954570D29B9C271BD1B84C /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Extensions.framework; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5AA45DC5954570D29B9C271BD1B84C /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB4156FEE1E800E0E08B76EFA60C054 /* YKWObjectProbeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWObjectProbeView.h; path = YKWoodpecker/Plugins/ProbeRulerPlugin/ObjectProbe/YKWObjectProbeView.h; sourceTree = "<group>"; };
 		EB77268046B41EFBEFD6B952837EAA20 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Extensions/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		EC0E028CD1EE03B04E8698EBAC4CDBC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -1046,10 +1047,11 @@
 		F1E912200326E28321B25F65331D5484 /* KLServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLServer-dummy.m"; sourceTree = "<group>"; };
 		F21E232486B1BA5B882A09B9E1FA2E76 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		F238611B11B4C42BA93406DCDD93B1C4 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2861AD316515219DDBE5683C5175EB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2861AD316515219DDBE5683C5175EB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F2DCA16763BA1FE90D9C2E4946E4221F /* YKWLineNoteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWLineNoteView.h; path = YKWoodpecker/Plugins/ProbeRulerPlugin/ViewProbe/YKWLineNoteView.h; sourceTree = "<group>"; };
 		F388B955B8612A6D00749AE988F6D7E8 /* YKWUserDefaultsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKWUserDefaultsViewController.h; path = YKWoodpecker/Plugins/UserDefaultsPlugin/YKWUserDefaultsViewController.h; sourceTree = "<group>"; };
 		F4418824AC03A88DE14F6F3ACB6068AC /* Pods-Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6266036241CCE3000CE010F /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
 		F706C90425530B91AD201DBF692F6584 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		F73365408882DA4DFD0A853A02718C41 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		F78A77E25F28B741573C00AE47012D8F /* YKWTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKWTextViewController.m; path = YKWoodpecker/Plugins/SandBoxPlugin/YKWTextViewController.m; sourceTree = "<group>"; };
@@ -1281,7 +1283,6 @@
 				2AD842897639DF3ABD12FB7C9BDCF57F /* UILayoutSupport+Extensions.swift */,
 				257E0C17942E2A7B77B764FCC4F1E7C0 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1384,7 +1385,6 @@
 				DDD329695B336E029CF66F8DA6010ADF /* UIDevice+KLConsole.m */,
 				25DA2C8A7B8F6F6F04F4EBA346B8ED5A /* Support Files */,
 			);
-			name = KLConsole;
 			path = KLConsole;
 			sourceTree = "<group>";
 		};
@@ -1474,7 +1474,6 @@
 				AFF2046E3C6576F4A6A112441EBC7EBA /* KLServer.m */,
 				F8FD5E5264D491176909F3EDF5E0F915 /* Support Files */,
 			);
-			name = KLServer;
 			path = KLServer;
 			sourceTree = "<group>";
 		};
@@ -1539,7 +1538,6 @@
 				6004C31D15A2EE07F03FB9B0D238B124 /* UIViewController+MemoryLeak.m */,
 				CE37304DA4A8A6691609AD17E9D2AA72 /* Support Files */,
 			);
-			name = KLLeaks;
 			path = KLLeaks;
 			sourceTree = "<group>";
 		};
@@ -1584,7 +1582,6 @@
 				1F7CA933C0E132F927B01C9A713889A5 /* MBProgressHUD.m */,
 				C4E8C26816556C367B1F071C7E72CB0A /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1593,6 +1590,7 @@
 			children = (
 				AAF230327ADD64B31278DD60EE4A1224 /* HomeSpecialController.swift */,
 				1C2ED150A1DDB95DFF5BF045489C2857 /* HomeViewController.swift */,
+				F6266036241CCE3000CE010F /* HomeNavigationBar.swift */,
 			);
 			name = Internal;
 			path = HomeService/Classes/Internal;
@@ -1630,7 +1628,6 @@
 				A2FAE41A79D9284792F6FA3AB77909CE /* IQUIViewController+Additions.swift */,
 				501FB462DC9C7AF01C8F94709A34F8EF /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -1656,7 +1653,6 @@
 				6E3AB53BCB809D73A084DD6F730136C3 /* Validation.swift */,
 				5A22219209EF4989D527ACDBA6058F28 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1739,7 +1735,6 @@
 				3442BA26121CC1633F8023430E9F2F6A /* UIViewController+KLNavigaitonController.m */,
 				303DA8886D117B334935D20A666F0309 /* Support Files */,
 			);
-			name = KLNavigationController;
 			path = KLNavigationController;
 			sourceTree = "<group>";
 		};
@@ -1944,7 +1939,6 @@
 				75F09931A794683DB4AE305A720E7809 /* Resources */,
 				28200A78B865064D8D639FED148B7610 /* Support Files */,
 			);
-			name = YKWoodpecker;
 			path = YKWoodpecker;
 			sourceTree = "<group>";
 		};
@@ -1978,7 +1972,6 @@
 				AF4F85C3584DFD6CD4256B7270265013 /* ViewController+MASAdditions.m */,
 				D6C0DF6EDA6E5DD66D8507F79786C3C7 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -2060,7 +2053,6 @@
 				68F80F067A3B73311BE5610CBE253BB4 /* KLProgressHUD.m */,
 				B2500AC6611DBFF84C4B2B382533C89C /* Support Files */,
 			);
-			name = KLProgressHUD;
 			path = KLProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -2103,7 +2095,6 @@
 				67EA3C36A30AEA44707EA001661EB692 /* UIViewController+LogExtension.m */,
 				1EB74FB420601A021323BD3FFD09CC18 /* Support Files */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -2946,6 +2937,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				923103F11B8B31673C8349D337E355C4 /* HomeService-dummy.m in Sources */,
+				F6266037241CCE3000CE010F /* HomeNavigationBar.swift in Sources */,
 				0B7EA42BD0794D687743C09D446121A2 /* HomeService.swift in Sources */,
 				D5DD2D29F8A925BE7E801A4B977D42D8 /* HomeSpecialController.swift in Sources */,
 				CE76417381D53778DC7C82B350712DBF /* HomeViewController.swift in Sources */,

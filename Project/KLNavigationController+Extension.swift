@@ -24,7 +24,6 @@ extension KLNavigationController {
     ///
     /// - Returns: KLNavigationController实例
     public class func navigation(rootViewController: UIViewController, title: String, image: String, selectedImage: String) -> KLNavigationController {
-        rootViewController.navigationItem.title = title
         let nc = KLNavigationController(rootViewController: rootViewController)
         nc.tabBarItem = UITabBarItem(title: title, image: UIImage(named: image)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedImage)?.withRenderingMode(.alwaysOriginal))
         return nc
