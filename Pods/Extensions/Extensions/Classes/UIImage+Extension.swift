@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import ImageIO
 
 public extension UIImage {
     
-    var original: UIImage {
+    var original: UIImage? {
         return self.withRenderingMode(.alwaysOriginal);
     }
     
@@ -50,5 +51,23 @@ public extension UIImage {
     
     class func image(color: UIColor) -> UIImage? {
         return self.image(color: color, with: CGSize(width: 1, height: 1))
+    }
+    
+    // 转自: https://swift.gg/2019/11/01/image-resizing 技巧 #3
+    class func resizedImage(at url: URL, for size: CGSize) -> UIImage? {
+        let options: [CFString: Any] = [
+            kCGImageSourceCreateThumbnailFromImageIfAbsent: true,
+            kCGImageSourceCreateThumbnailWithTransform: true,
+            kCGImageSourceShouldCacheImmediately: true,
+            kCGImageSourceThumbnailMaxPixelSize: max(size.width, size.height)
+        ]
+
+        guard let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
+            let image = CGImageSourceCreateThumbnailAtIndex(imageSource, 0, options as CFDictionary)
+        else {
+            return nil
+        }
+
+        return UIImage(cgImage: image)
     }
 }

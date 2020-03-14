@@ -23,7 +23,8 @@ extension KLNavigationController {
     /// - Parameter selectedImage: 选项卡选中图标
     ///
     /// - Returns: KLNavigationController实例
-    open class func navigation(rootViewController: UIViewController, title: String, image: String, selectedImage: String) -> KLNavigationController {
+    public class func navigation(rootViewController: UIViewController, title: String, image: String, selectedImage: String) -> KLNavigationController {
+        rootViewController.navigationItem.title = title
         let nc = KLNavigationController(rootViewController: rootViewController)
         nc.tabBarItem = UITabBarItem(title: title, image: UIImage(named: image)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedImage)?.withRenderingMode(.alwaysOriginal))
         return nc
@@ -39,9 +40,16 @@ extension KLNavigationController {
     /// - Parameter animated: 选择是否动画的参数
     ///
     /// - Returns: KLNavigationController实例
-    override open func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    override public func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        // 统一设置底部栏隐藏状态
         viewController.hidesBottomBarWhenPushed = true
+        // 统一设置返回按钮样式
+        viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "back"), style: .done, target: self, action: #selector(backViewController))
+        viewController.navigationItem.leftBarButtonItem?.imageInsets = UIEdgeInsets(top: 0, left: -5, bottom: 0, right: 0)
         super.pushViewController(viewController, animated: animated)
     }
     
+    @objc func backViewController(animated: Bool) {
+        self.popViewController(animated: true)
+    }
 }

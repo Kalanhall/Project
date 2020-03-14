@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-source 'https://cdn.cocoapods.org'
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Kalanhall/Specs.git'
 inhibit_all_warnings!
 target 'Project' do
@@ -9,10 +9,14 @@ target 'Project' do
   use_frameworks!
 
   # Pods for Project
-  pod 'MLeaksFinder'
-  # 开发阶段指向源码库，发布版本直接指向私有库
-  pod 'LoginService', :git=>'https://github.com/Kalanhall/LoginService.git'
-  pod 'LoginServiceInterface', :git=>'https://github.com/Kalanhall/LoginServiceInterface.git'
+  pod 'KLLeaks'
+  pod 'KLConsole'
+
+  pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
+  pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
+  
+  pod 'HomeService', :path=>'/Users/kalan/Desktop/Swift/HomeService'
+  pod 'HomeServiceInterface', :path=>'/Users/kalan/Desktop/Swift/HomeServiceInterface'
 
 end
 

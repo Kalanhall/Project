@@ -43,13 +43,15 @@ public extension UIButton {
                         self.titleEdgeInsets = UIEdgeInsets(top: 0, left: -iw-kmargin, bottom: 0, right: iw+kmargin)
                         break
                             
-                    case .top: // 10为Button默认间距补偿
+                    case .top:
+                        // 10为Button默认间距补偿
                         self.imageEdgeInsets = UIEdgeInsets(top: 10, left: 0, bottom: lh+margin, right: -lw)
-                        self.titleEdgeInsets = UIEdgeInsets(top: ih+margin+10, left: -iw, bottom: 0, right: 0)
+                        self.titleEdgeInsets = UIEdgeInsets(top: ih+margin, left: -iw, bottom: 0, right: 0)
                         break
                                 
-                    case .bottom: // 10为Button默认间距补偿
-                        self.imageEdgeInsets = UIEdgeInsets(top: lh+margin-10, left: 0, bottom: 0, right: -lw)
+                    case .bottom:
+                        // 10为Button默认间距补偿
+                        self.imageEdgeInsets = UIEdgeInsets(top: lh+margin, left: 0, bottom: 0, right: -lw)
                         self.titleEdgeInsets = UIEdgeInsets(top: -10, left: -iw, bottom: ih+margin, right: 0)
                         break
                 

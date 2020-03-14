@@ -37,16 +37,7 @@
     "Alamofire": [
 
     ],
-    "RxSwift": [
-      "~> 5"
-    ],
-    "RxCocoa": [
-      "~> 5"
-    ],
     "KLNavigationController": [
-
-    ],
-    "YYWebImage": [
 
     ],
     "IQKeyboardManagerSwift": [
