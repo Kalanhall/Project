@@ -31,13 +31,16 @@
     "KLProgressHUD": [
       "~> 1.0.0"
     ],
+    "KLNavigationController": [
+
+    ],
+    "KLImageView": [
+
+    ],
     "SnapKit": [
 
     ],
     "Alamofire": [
-
-    ],
-    "KLNavigationController": [
 
     ],
     "IQKeyboardManagerSwift": [

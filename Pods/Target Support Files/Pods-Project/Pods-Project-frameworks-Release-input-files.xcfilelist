@@ -4,7 +4,9 @@ ${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework
 ${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework
 ${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/KLCache/KLCache.framework
 ${BUILT_PRODUCTS_DIR}/KLConsole/KLConsole.framework
+${BUILT_PRODUCTS_DIR}/KLImageView/KLImageView.framework
 ${BUILT_PRODUCTS_DIR}/KLLeaks/KLLeaks.framework
 ${BUILT_PRODUCTS_DIR}/KLNavigationController/KLNavigationController.framework
 ${BUILT_PRODUCTS_DIR}/KLProgressHUD/KLProgressHUD.framework
@@ -15,3 +17,4 @@ ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework
+${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework

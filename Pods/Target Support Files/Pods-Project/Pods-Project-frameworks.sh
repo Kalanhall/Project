@@ -166,7 +166,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KLCache/KLCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLConsole/KLConsole.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KLImageView/KLImageView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLLeaks/KLLeaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLNavigationController/KLNavigationController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLProgressHUD/KLProgressHUD.framework"
@@ -177,6 +179,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
@@ -184,7 +187,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KLCache/KLCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLConsole/KLConsole.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KLImageView/KLImageView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLLeaks/KLLeaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLNavigationController/KLNavigationController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KLProgressHUD/KLProgressHUD.framework"
@@ -195,6 +200,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
