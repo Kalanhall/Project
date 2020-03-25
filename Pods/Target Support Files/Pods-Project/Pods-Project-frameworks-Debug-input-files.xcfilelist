@@ -15,6 +15,7 @@ ${BUILT_PRODUCTS_DIR}/LoginService/LoginService.framework
 ${BUILT_PRODUCTS_DIR}/LoginServiceInterface/LoginServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/RefreshKit/RefreshKit.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework
 ${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework
