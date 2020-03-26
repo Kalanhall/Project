@@ -162,6 +162,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CustomLoading/CustomLoading.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
@@ -181,9 +182,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CustomLoading/CustomLoading.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
@@ -203,6 +206,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CustomLoading/CustomLoading.framework
 ${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework
 ${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework
 ${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework
@@ -19,3 +20,4 @@ ${BUILT_PRODUCTS_DIR}/RefreshKit/RefreshKit.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework
 ${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
