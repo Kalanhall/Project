@@ -1,17 +1,17 @@
 PODS:
   - Alamofire (4.9.1)
-  - CustomLoading (1.0.2):
+  - CustomLoading (1.0.4):
     - lottie-ios
     - RefreshKit
-  - Extensions (1.0.8)
+  - Extensions (1.0.9.1)
   - HomeService (0.1.0):
     - Alamofire
     - CustomLoading
-    - Extensions (~> 1.0.0)
+    - Extensions
     - IQKeyboardManagerSwift
     - KLImageView
     - KLNavigationController
-    - KLProgressHUD (~> 1.0.0)
+    - KLProgressHUD
     - LoginServiceInterface
     - RefreshKit
     - SnapKit
@@ -103,9 +103,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  CustomLoading: 209ac51c8177deea9d8f31fb606bb4b298500c7c
-  Extensions: 637049edc6abdbe6fcdc6989ef15b65adbe2da7b
-  HomeService: cca33e349056f2a0a3d957d07649993256dba954
+  CustomLoading: 51f01fa7a4389ebe675d4973d039be05e540a3bc
+  Extensions: fe7fa8825317b37749a174b2edfb8e2d97901276
+  HomeService: cebb75957bc73852396d2870f6a93bc5140d4324
   HomeServiceInterface: c2c5ae1f48948f5010f30cbc57e8c24d1f881933
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   KLCache: 1bf0c622da8f7e4e3acf2569e1d02e60b11ff6e6

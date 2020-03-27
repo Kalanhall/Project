@@ -38,6 +38,7 @@ public extension UIImage {
         return nil
     }
     
+    /// 创建指定尺寸纯色图片
     class func image(color: UIColor, with size:CGSize) -> UIImage? {
         let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
         UIGraphicsBeginImageContext(rect.size)
@@ -53,7 +54,7 @@ public extension UIImage {
         return self.image(color: color, with: CGSize(width: 1, height: 1))
     }
     
-    // 转自: https://swift.gg/2019/11/01/image-resizing 技巧 #3
+    /// 图片压缩 转自: https://swift.gg/2019/11/01/image-resizing 技巧 #3
     class func resizedImage(at url: URL, for size: CGSize) -> UIImage? {
         let options: [CFString: Any] = [
             kCGImageSourceCreateThumbnailFromImageIfAbsent: true,
@@ -69,5 +70,20 @@ public extension UIImage {
         }
 
         return UIImage(cgImage: image)
+    }
+    
+    /// 获取图片指定位置图片
+    class func imageCropping(_ image: UIImage?, in partRect:CGRect , with placeholder:UIImage?) -> UIImage? {
+        guard let aImage = image else {
+            return placeholder
+        }
+        guard let imageRef = aImage.cgImage else {
+            return placeholder
+        }
+        guard let imagePartRef = imageRef.cropping(to: partRect) else {
+            return placeholder
+        }
+        let partImage = UIImage.init(cgImage: imagePartRef)
+        return partImage
     }
 }

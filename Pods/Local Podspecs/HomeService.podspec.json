@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "Extensions": [
-      "~> 1.0.0"
+
     ],
     "KLProgressHUD": [
-      "~> 1.0.0"
+
     ],
     "KLNavigationController": [
 
