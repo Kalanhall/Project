@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UITabBarController().setupItems()
         window?.makeKeyAndVisible()
         
-        
         applicationDidFinishServiceLaunch()
         applicationDidFinishLibLaunch()
         

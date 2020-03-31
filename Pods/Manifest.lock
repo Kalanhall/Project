@@ -57,7 +57,7 @@ PODS:
   - lottie-ios (3.1.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - RefreshKit (1.0.3)
+  - RefreshKit (1.0.4)
   - SnapKit (4.2.0)
   - YKWoodpecker (1.2.1)
 
@@ -121,7 +121,7 @@ SPEC CHECKSUMS:
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  RefreshKit: c060ef6431da4a23ef90d0b935540d709557ab50
+  RefreshKit: f14a314ad36bc8d191b9900758082eab351601fc
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   YKWoodpecker: 760cff9f244a4bcbfa9589ec3869f0071658e74c
 
