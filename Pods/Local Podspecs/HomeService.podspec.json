@@ -28,13 +28,7 @@
     "Extensions": [
 
     ],
-    "KLProgressHUD": [
-
-    ],
     "KLNavigationController": [
-
-    ],
-    "KLImageView": [
 
     ],
     "SnapKit": [
@@ -47,9 +41,6 @@
 
     ],
     "RefreshKit": [
-
-    ],
-    "CustomLoading": [
 
     ],
     "LoginServiceInterface": [

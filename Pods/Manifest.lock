@@ -1,50 +1,25 @@
 PODS:
   - Alamofire (4.9.1)
-  - CustomLoading (1.0.4):
-    - lottie-ios
-    - RefreshKit
   - Extensions (1.0.9.1)
   - HomeService (0.1.0):
     - Alamofire
-    - CustomLoading
     - Extensions
     - IQKeyboardManagerSwift
-    - KLImageView
     - KLNavigationController
-    - KLProgressHUD
     - LoginServiceInterface
     - RefreshKit
     - SnapKit
   - HomeServiceInterface (0.1.0):
     - KLServer
-  - IQKeyboardManagerSwift (6.5.5)
-  - KLCache (1.0.1)
+  - IQKeyboardManagerSwift (6.5.6)
   - KLConsole (1.0.6):
     - Masonry
     - YKWoodpecker
-  - KLImageView (1.0.1):
-    - KLCache
-    - KLImageView/libwebp (= 1.0.1)
-    - KLImageView/WebP (= 1.0.1)
-  - KLImageView/libwebp (1.0.1):
-    - KLCache
-    - libwebp
-  - KLImageView/WebP (1.0.1):
-    - KLCache
   - KLLeaks (1.0.0)
   - KLNavigationController (1.1.0)
   - KLProgressHUD (1.0.1):
     - MBProgressHUD
   - KLServer (1.0.0)
-  - libwebp (1.1.0):
-    - libwebp/demux (= 1.1.0)
-    - libwebp/mux (= 1.1.0)
-    - libwebp/webp (= 1.1.0)
-  - libwebp/demux (1.1.0):
-    - libwebp/webp
-  - libwebp/mux (1.1.0):
-    - libwebp/demux
-  - libwebp/webp (1.1.0)
   - LoginService (0.0.1):
     - Alamofire
     - Extensions (~> 1.0.0)
@@ -54,20 +29,19 @@ PODS:
     - SnapKit
   - LoginServiceInterface (0.0.1):
     - KLServer
-  - lottie-ios (3.1.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - RefreshKit (1.0.4)
+  - RefreshKit (1.0.3)
   - SnapKit (4.2.0)
   - YKWoodpecker (1.2.1)
 
 DEPENDENCIES:
-  - HomeService (from `/Users/kalan/Desktop/Swift/HomeService`)
-  - HomeServiceInterface (from `/Users/kalan/Desktop/Swift/HomeServiceInterface`)
+  - HomeService (from `/Users/kalan/HomeService`)
+  - HomeServiceInterface (from `/Users/kalan/HomeServiceInterface`)
   - KLConsole
   - KLLeaks
-  - LoginService (from `/Users/kalan/Desktop/Swift/LoginService`)
-  - LoginServiceInterface (from `/Users/kalan/Desktop/Swift/LoginServiceInterface`)
+  - LoginService (from `/Users/kalan/LoginService`)
+  - LoginServiceInterface (from `/Users/kalan/LoginServiceInterface`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -75,56 +49,46 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - KLLeaks
     - KLServer
-    - libwebp
-    - lottie-ios
     - Masonry
     - MBProgressHUD
     - SnapKit
     - YKWoodpecker
   https://github.com/Kalanhall/Specs.git:
-    - CustomLoading
     - Extensions
-    - KLCache
     - KLConsole
-    - KLImageView
     - KLNavigationController
     - KLProgressHUD
     - RefreshKit
 
 EXTERNAL SOURCES:
   HomeService:
-    :path: "/Users/kalan/Desktop/Swift/HomeService"
+    :path: "/Users/kalan/HomeService"
   HomeServiceInterface:
-    :path: "/Users/kalan/Desktop/Swift/HomeServiceInterface"
+    :path: "/Users/kalan/HomeServiceInterface"
   LoginService:
-    :path: "/Users/kalan/Desktop/Swift/LoginService"
+    :path: "/Users/kalan/LoginService"
   LoginServiceInterface:
-    :path: "/Users/kalan/Desktop/Swift/LoginServiceInterface"
+    :path: "/Users/kalan/LoginServiceInterface"
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  CustomLoading: 51f01fa7a4389ebe675d4973d039be05e540a3bc
   Extensions: fe7fa8825317b37749a174b2edfb8e2d97901276
-  HomeService: cebb75957bc73852396d2870f6a93bc5140d4324
+  HomeService: e7f4c295ee36bb898836ca230eff236e71707d80
   HomeServiceInterface: c2c5ae1f48948f5010f30cbc57e8c24d1f881933
-  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
-  KLCache: 1bf0c622da8f7e4e3acf2569e1d02e60b11ff6e6
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   KLConsole: 144de281278a6523e08e07ebb96c7bd4e52d52b5
-  KLImageView: b3edea5f67afb7d06be2b7536e62629ebeaf0461
   KLLeaks: 2c098234d67353bc2286d4eec6feeff14163136c
   KLNavigationController: bc9860e43a06103f3e12b7a2b89f27de48c7ff94
   KLProgressHUD: 02604b90a034a25bf5ecf9305df9967e0b961249
   KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
-  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   LoginService: e6c91eb1db8bdf86623e5d43bd581ee62ca48c71
   LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
-  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  RefreshKit: f14a314ad36bc8d191b9900758082eab351601fc
+  RefreshKit: c060ef6431da4a23ef90d0b935540d709557ab50
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   YKWoodpecker: 760cff9f244a4bcbfa9589ec3869f0071658e74c
 
-PODFILE CHECKSUM: 32c13d3c6d7b7ec52a2fac3dc8394969893a9438
+PODFILE CHECKSUM: 6f1572b28cd489ebe8ce7bec19a407d7edc75dfa
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1

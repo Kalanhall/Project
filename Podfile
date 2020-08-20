@@ -12,11 +12,11 @@ target 'Project' do
   pod 'KLLeaks'
   pod 'KLConsole'
 
-  pod 'LoginService', :path=>'/Users/kalan/Desktop/Swift/LoginService'
-  pod 'LoginServiceInterface', :path=>'/Users/kalan/Desktop/Swift/LoginServiceInterface'
+  pod 'LoginService', :path=>'/Users/kalan/LoginService'
+  pod 'LoginServiceInterface', :path=>'/Users/kalan/LoginServiceInterface'
   
-  pod 'HomeService', :path=>'/Users/kalan/Desktop/Swift/HomeService'
-  pod 'HomeServiceInterface', :path=>'/Users/kalan/Desktop/Swift/HomeServiceInterface'
+  pod 'HomeService', :path=>'/Users/kalan/HomeService'
+  pod 'HomeServiceInterface', :path=>'/Users/kalan/HomeServiceInterface'
 
 end
 

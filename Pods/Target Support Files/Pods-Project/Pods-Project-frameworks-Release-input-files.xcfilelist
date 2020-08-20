@@ -1,13 +1,10 @@
 ${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/CustomLoading/CustomLoading.framework
 ${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework
 ${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework
 ${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
-${BUILT_PRODUCTS_DIR}/KLCache/KLCache.framework
 ${BUILT_PRODUCTS_DIR}/KLConsole/KLConsole.framework
-${BUILT_PRODUCTS_DIR}/KLImageView/KLImageView.framework
 ${BUILT_PRODUCTS_DIR}/KLLeaks/KLLeaks.framework
 ${BUILT_PRODUCTS_DIR}/KLNavigationController/KLNavigationController.framework
 ${BUILT_PRODUCTS_DIR}/KLProgressHUD/KLProgressHUD.framework
@@ -19,5 +16,3 @@ ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/RefreshKit/RefreshKit.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework
-${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework
-${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
