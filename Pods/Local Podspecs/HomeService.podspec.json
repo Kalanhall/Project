@@ -28,7 +28,7 @@
     "Extensions": [
 
     ],
-    "KLNavigationController": [
+    "Texture": [
 
     ],
     "SnapKit": [
@@ -40,10 +40,10 @@
     "IQKeyboardManagerSwift": [
 
     ],
-    "RefreshKit": [
+    "HBDNavigationBar": [
 
     ],
-    "LoginServiceInterface": [
+    "JXSegmentedView": [
 
     ]
   }

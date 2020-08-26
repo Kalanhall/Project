@@ -26,10 +26,7 @@
   },
   "dependencies": {
     "Extensions": [
-      "~> 1.0.0"
-    ],
-    "KLProgressHUD": [
-      "~> 1.0.0"
+
     ],
     "SnapKit": [
 
@@ -37,10 +34,10 @@
     "Alamofire": [
 
     ],
-    "KLNavigationController": [
+    "IQKeyboardManagerSwift": [
 
     ],
-    "IQKeyboardManagerSwift": [
+    "HBDNavigationBar": [
 
     ]
   }

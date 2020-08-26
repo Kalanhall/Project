@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KLNavigationController
+import HBDNavigationBar
 import HomeServiceInterface
 
 extension UITabBarController {
@@ -17,13 +17,13 @@ extension UITabBarController {
         view.backgroundColor = .white
         
         // MARK: 选项卡控制器添加
-        addChild(KLNavigationController.navigation(rootViewController: KLServer.shared().fetchHomeViewController(with: nil),
+        addChild(HBDNavigationController.navigation(rootViewController: CTMediator.sharedInstance().fetchHomeViewController(with: nil),
                                                    title: "商城", image: "Tab0", selectedImage: "Tab0-h"))
-        addChild(KLNavigationController.navigation(rootViewController: KLServer.shared().fetchHomeViewController(with: nil),
+        addChild(HBDNavigationController.navigation(rootViewController: CTMediator.sharedInstance().fetchHomeViewController(with: nil),
                                                    title: "视频", image: "Tab1", selectedImage: "Tab1-h"))
-        addChild(KLNavigationController.navigation(rootViewController: KLServer.shared().fetchHomeViewController(with: nil),
+        addChild(HBDNavigationController.navigation(rootViewController: CTMediator.sharedInstance().fetchHomeViewController(with: nil),
                                                    title: "购物", image: "Tab2", selectedImage: "Tab2-h"))
-        addChild(KLNavigationController.navigation(rootViewController: KLServer.shared().fetchHomeViewController(with: nil),
+        addChild(HBDNavigationController.navigation(rootViewController: CTMediator.sharedInstance().fetchHomeViewController(with: nil),
                                                    title: "我的", image: "Tab3", selectedImage: "Tab3-h"))
         
         // MARK: 适配iOS13以下选项卡
@@ -46,7 +46,7 @@ extension UITabBarController {
         // MARK: 导航栏主体设置
         let barasppearance = UINavigationBar.appearance()
         barasppearance.tintColor = UIColor.black
-        barasppearance.barTintColor = UIColor.white
+//        barasppearance.barTintColor = UIColor.white
         barasppearance.titleTextAttributes = [.foregroundColor : UIColor.black]
         // MARK: 导航栏全局返回图片处理，位置只能在控制器中对UIBarButtonItem.imageInsets进行调整，标题隐藏系统表现差异
 //        barasppearance.backIndicatorImage = UIImage(named: "back")

@@ -20,7 +20,7 @@
   },
   "source_files": "HomeServiceInterface/Classes/**/*",
   "dependencies": {
-    "KLServer": [
+    "CTMediator": [
 
     ]
   }

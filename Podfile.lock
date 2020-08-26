@@ -1,64 +1,91 @@
 PODS:
   - Alamofire (4.9.1)
+  - CTMediator (44)
   - Extensions (1.0.9.1)
+  - FBRetainCycleDetector (0.1.4)
+  - HBDNavigationBar (1.7.7)
   - HomeService (0.1.0):
     - Alamofire
     - Extensions
+    - HBDNavigationBar
     - IQKeyboardManagerSwift
-    - KLNavigationController
-    - LoginServiceInterface
-    - RefreshKit
+    - JXSegmentedView
     - SnapKit
+    - Texture
   - HomeServiceInterface (0.1.0):
-    - KLServer
+    - CTMediator
   - IQKeyboardManagerSwift (6.5.6)
-  - KLConsole (1.0.6):
-    - Masonry
-    - YKWoodpecker
-  - KLLeaks (1.0.0)
-  - KLNavigationController (1.1.0)
-  - KLProgressHUD (1.0.1):
-    - MBProgressHUD
-  - KLServer (1.0.0)
+  - JXSegmentedView (1.2.7)
   - LoginService (0.0.1):
     - Alamofire
-    - Extensions (~> 1.0.0)
+    - Extensions
+    - HBDNavigationBar
     - IQKeyboardManagerSwift
-    - KLNavigationController
-    - KLProgressHUD (~> 1.0.0)
     - SnapKit
   - LoginServiceInterface (0.0.1):
-    - KLServer
-  - Masonry (1.1.0)
-  - MBProgressHUD (1.2.0)
-  - RefreshKit (1.0.3)
+    - CTMediator
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - PINCache (3.0.1-beta.8):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.8)
+    - PINCache/Core (= 3.0.1-beta.8)
+  - PINCache/Arc-exception-safe (3.0.1-beta.8):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.8):
+    - PINOperation (~> 1.1.1)
+  - PINOperation (1.1.2)
+  - PINRemoteImage/Core (3.0.0):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0):
+    - PINCache (= 3.0.1-beta.8)
+    - PINRemoteImage/Core
   - SnapKit (4.2.0)
-  - YKWoodpecker (1.2.1)
+  - Texture (3.0.0):
+    - Texture/AssetsLibrary (= 3.0.0)
+    - Texture/Core (= 3.0.0)
+    - Texture/MapKit (= 3.0.0)
+    - Texture/Photos (= 3.0.0)
+    - Texture/PINRemoteImage (= 3.0.0)
+    - Texture/Video (= 3.0.0)
+  - Texture/AssetsLibrary (3.0.0):
+    - Texture/Core
+  - Texture/Core (3.0.0)
+  - Texture/MapKit (3.0.0):
+    - Texture/Core
+  - Texture/Photos (3.0.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0):
+    - Texture/Core
 
 DEPENDENCIES:
   - HomeService (from `/Users/kalan/HomeService`)
   - HomeServiceInterface (from `/Users/kalan/HomeServiceInterface`)
-  - KLConsole
-  - KLLeaks
   - LoginService (from `/Users/kalan/LoginService`)
   - LoginServiceInterface (from `/Users/kalan/LoginServiceInterface`)
+  - MLeaksFinder
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - CTMediator
+    - FBRetainCycleDetector
+    - HBDNavigationBar
     - IQKeyboardManagerSwift
-    - KLLeaks
-    - KLServer
-    - Masonry
-    - MBProgressHUD
+    - JXSegmentedView
+    - MLeaksFinder
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
     - SnapKit
-    - YKWoodpecker
+    - Texture
   https://github.com/Kalanhall/Specs.git:
     - Extensions
-    - KLConsole
-    - KLNavigationController
-    - KLProgressHUD
-    - RefreshKit
 
 EXTERNAL SOURCES:
   HomeService:
@@ -72,23 +99,23 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   Extensions: fe7fa8825317b37749a174b2edfb8e2d97901276
-  HomeService: e7f4c295ee36bb898836ca230eff236e71707d80
-  HomeServiceInterface: c2c5ae1f48948f5010f30cbc57e8c24d1f881933
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  HomeService: b372779f208d7dbfbc470252e34e299ddc31b748
+  HomeServiceInterface: f9f819e32edaa69c543fe2c30c78982079f7139c
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  KLConsole: 144de281278a6523e08e07ebb96c7bd4e52d52b5
-  KLLeaks: 2c098234d67353bc2286d4eec6feeff14163136c
-  KLNavigationController: bc9860e43a06103f3e12b7a2b89f27de48c7ff94
-  KLProgressHUD: 02604b90a034a25bf5ecf9305df9967e0b961249
-  KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
-  LoginService: e6c91eb1db8bdf86623e5d43bd581ee62ca48c71
-  LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  RefreshKit: c060ef6431da4a23ef90d0b935540d709557ab50
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  LoginService: c02f0642f5489c6fec29be32597d4f97acb4c03e
+  LoginServiceInterface: 789d50291c8457aa3635d902efa62ac3dc9c383b
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  PINCache: 534fd41d358d828dfdf227a0d327f3673a65e20b
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PINRemoteImage: e2b89e19fb6e77ffc099f9d9f3b3fe1745e3f9f9
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  YKWoodpecker: 760cff9f244a4bcbfa9589ec3869f0071658e74c
+  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: 6f1572b28cd489ebe8ce7bec19a407d7edc75dfa
+PODFILE CHECKSUM: 91b959944a8da06193bb7f80cd672bab616a4c92
 
 COCOAPODS: 1.9.1

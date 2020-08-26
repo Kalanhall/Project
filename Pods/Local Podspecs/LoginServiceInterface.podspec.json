@@ -20,7 +20,7 @@
   },
   "source_files": "LoginServiceInterface/Classes/**/*",
   "dependencies": {
-    "KLServer": [
+    "CTMediator": [
 
     ]
   }

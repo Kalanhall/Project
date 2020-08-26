@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import KLNavigationController
+import HBDNavigationBar
 
-extension KLNavigationController {
+extension HBDNavigationController {
     
     /// 用于创建想选卡实例的分类方法
     ///
@@ -23,8 +23,8 @@ extension KLNavigationController {
     /// - Parameter selectedImage: 选项卡选中图标
     ///
     /// - Returns: KLNavigationController实例
-    public class func navigation(rootViewController: UIViewController, title: String, image: String, selectedImage: String) -> KLNavigationController {
-        let nc = KLNavigationController(rootViewController: rootViewController)
+    public class func navigation(rootViewController: UIViewController, title: String, image: String, selectedImage: String) -> HBDNavigationController {
+        let nc = HBDNavigationController(rootViewController: rootViewController)
         nc.tabBarItem = UITabBarItem(title: title, image: UIImage(named: image)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedImage)?.withRenderingMode(.alwaysOriginal))
         return nc
     }

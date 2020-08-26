@@ -9,8 +9,7 @@ target 'Project' do
   use_frameworks!
 
   # Pods for Project
-  pod 'KLLeaks'
-  pod 'KLConsole'
+  pod 'MLeaksFinder'
 
   pod 'LoginService', :path=>'/Users/kalan/LoginService'
   pod 'LoginServiceInterface', :path=>'/Users/kalan/LoginServiceInterface'
