@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UITabBarController().setupItems()
         window?.makeKeyAndVisible()
         
-//        YKWoodpeckerManager.sharedInstance()?.show()
+        YKWoodpeckerManager.sharedInstance()?.show()
 
         return true
     }
