@@ -1,6 +1,0 @@
-framework module LoginServiceInterface {
-  umbrella header "LoginServiceInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

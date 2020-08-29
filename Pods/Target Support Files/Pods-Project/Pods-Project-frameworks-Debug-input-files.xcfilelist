@@ -8,8 +8,6 @@ ${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework
 ${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
 ${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
-${BUILT_PRODUCTS_DIR}/LoginService/LoginService.framework
-${BUILT_PRODUCTS_DIR}/LoginServiceInterface/LoginServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework
 ${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework
 ${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework

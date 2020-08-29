@@ -54,21 +54,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>LoginService-LoginService.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LoginService.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LoginServiceInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MLeaksFinder.xcscheme</key>
 		<dict>
 			<key>isShown</key>

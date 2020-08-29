@@ -12,8 +12,8 @@ target 'Project' do
   pod 'MLeaksFinder'
   pod 'YKWoodpecker'
   
-  pod 'LoginService', :path=>'/Users/kalan/LoginService'
-  pod 'LoginServiceInterface', :path=>'/Users/kalan/LoginServiceInterface'
+#  pod 'LoginService', :path=>'/Users/kalan/LoginService'
+#  pod 'LoginServiceInterface', :path=>'/Users/kalan/LoginServiceInterface'
   
   pod 'HomeService', :path=>'/Users/kalan/HomeService'
   pod 'HomeServiceInterface', :path=>'/Users/kalan/HomeServiceInterface'
