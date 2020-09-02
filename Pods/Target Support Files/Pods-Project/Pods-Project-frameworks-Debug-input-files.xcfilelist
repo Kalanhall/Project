@@ -7,7 +7,9 @@ ${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework
 ${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework
 ${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework
 ${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework
 ${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework
 ${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework
