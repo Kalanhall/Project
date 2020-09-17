@@ -11,7 +11,8 @@ target 'Project' do
   # Pods for Project
   pod 'MLeaksFinder'
   pod 'YKWoodpecker'
-  pod 'ApplicationEntry'
+  pod 'ApplicationEntry/Category'
+#  pod 'ApplicationEntry/FlashyTabBar'
   pod 'lottie-ios'
 
 end

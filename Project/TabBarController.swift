@@ -34,12 +34,12 @@ class TabBarController: UITabBarController {
         let vc4 = NavigationController(rootViewController: HomeViewController(), title: nil, image: nil, selectedImage: nil)
         let vc5 = NavigationController(rootViewController: HomeViewController(), title: nil, image: nil, selectedImage: nil)
         self.viewControllers = [vc1, vc2, vc3, vc4, vc5]
-        
+
         barAppearance(attributes: [
             TabAppearanceType
             .backgroundImage: extension_imageWith(.white, size: CGSize(width: 1, height: 1))!
         ])
-        
+
         let jsons: [String] = ["home", "category", "discover", "cart", "user"]
         overlayItems = overlayItems(jsons: jsons)
         guard overlayItems != nil else {

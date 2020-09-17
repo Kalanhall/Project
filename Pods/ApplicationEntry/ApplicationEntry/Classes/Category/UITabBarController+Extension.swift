@@ -8,6 +8,10 @@
 import Foundation
 
 public enum TabAppearanceType {
+    /// 返回按钮主题色
+    case tincolor
+    /// 导航栏背景主题色
+    case barTincolor
     /// 选项栏标题文本属性，接收一个包含 元组类型为 ([NSAttributedString.Key : Any], UIControl.State) 的数组，必须设置了Normal状态的字体颜色,UIbarButtonItem的字体，颜色才会起作用
     case titleTextAttributes
     /// 文本垂直边距 UIOffset，统一调整iOS13无法为单个Item设置title位移，可以自定义按钮解决特殊场景
@@ -112,6 +116,10 @@ public extension UITabBarController {
         }
         for attribute in attributes! {
             switch attribute.key {
+            case .tincolor:
+                UITabBar.appearance().tintColor = attribute.value as? UIColor
+            case .barTincolor:
+                UITabBar.appearance().barTintColor = attribute.value as? UIColor
             case .titleTextAttributes:
                 guard attribute.value is [([NSAttributedString.Key : Any], UIControl.State)] else {
                     return

@@ -1,5 +1,5 @@
 PODS:
-  - ApplicationEntry (1.0.2)
+  - ApplicationEntry/Category (1.0.3)
   - FBRetainCycleDetector (0.1.4)
   - lottie-ios (3.1.8)
   - MLeaksFinder (1.0.0):
@@ -7,26 +7,27 @@ PODS:
   - YKWoodpecker (1.2.8)
 
 DEPENDENCIES:
-  - ApplicationEntry
+  - ApplicationEntry/Category
   - lottie-ios
   - MLeaksFinder
   - YKWoodpecker
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - ApplicationEntry
     - FBRetainCycleDetector
     - lottie-ios
     - MLeaksFinder
     - YKWoodpecker
+  https://github.com/Kalanhall/Specs.git:
+    - ApplicationEntry
 
 SPEC CHECKSUMS:
-  ApplicationEntry: 93151910c51c99b0fe3be4e58feb0d3a42f4f234
+  ApplicationEntry: 0915e75727aaa2193162b4396301995e33673a4f
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   YKWoodpecker: c9c58ed903cde9507b0e9279c1c11abb119f32c2
 
-PODFILE CHECKSUM: 4e3a0a9d9055c416d37e28425dd10b683e5a1141
+PODFILE CHECKSUM: 55d11bea87c1e7a6b6a6480d5626121e5bdf96a6
 
 COCOAPODS: 1.9.1
