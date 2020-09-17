@@ -197,44 +197,18 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ApplicationEntry/ApplicationEntry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ApplicationEntry/ApplicationEntry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomeService/HomeService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomeServiceInterface/HomeServiceInterface.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YKWoodpecker/YKWoodpecker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
